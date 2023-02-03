@@ -1,0 +1,191 @@
+.eventWrap {
+    width: 100%;
+    height: auto;
+    padding: 220px 0 80px;
+    
+    //內容
+    .eventBody {
+        width: 1400px;
+        height: auto;
+        min-height: 600px;
+        display: flex;
+        margin: 0 auto;
+
+        //左
+        .side {
+            width: 325px;
+            height: auto;
+            background: $mainBG_1;
+            border-radius: 16px;
+            margin-right: 15px;
+            flex-shrink: 0;
+
+            ul {
+                width: 100%;
+                height: auto;
+                padding: 12px;
+
+                li {
+                    width: 100%;
+                    height: 55px;
+                    @include innerLeftNav;
+                    font-size: 20px;
+                    justify-content: center;
+                    padding: 0;
+                }
+            }
+        }
+
+        //右
+        .eventList {
+            display: none;
+            width: 100%;
+            height: auto;
+
+            &.display {
+                display: block;
+            }
+
+            .eventBox {
+                width: 100%;
+                height: auto;
+                background: $mainBG_1;
+                border-radius: 16px;
+                display: flex;
+                overflow: hidden;
+                margin-bottom: 20px;
+
+                &:last-child {
+                    margin: 0;
+                }
+
+                .imgBox {
+                    width: 100%;
+                    height: 190px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                ul {
+                    width: 250px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 24px;
+
+                    .title {
+                        color: $mainFont_1;
+                        font-size: 24px;
+                        font-weight: bold;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .btnBox {
+                        width: 100%;
+                        height: auto;
+
+                        button {
+                            width: 100%;
+                            height: 42px;
+                            @include secondBtn;
+                        }
+                    }
+                }
+            }
+        }
+
+        //內頁
+        .eventDetail {
+            display: none;
+            width: 100%;
+            height: auto;
+            background: $mainBG_1;
+            border-radius: 16px;
+
+            &.display {
+                display: block;
+            }
+
+            .title {
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                padding: 24px;
+
+                p {
+                    color: $mainFont_1;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+
+                button {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 20px;
+                }
+            }
+
+            .btnBox {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: flex-end;
+                padding: 0 40px;
+                margin-bottom: 20px;
+
+                a {
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 8px;
+
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .imgBox {
+                width: 100%;
+                height: 260px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .info {
+                width: 100%;
+                height: auto;
+                min-height: 500px;
+                padding: 24px;
+                
+                p {
+                    color: $mainFont_1;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 20px;
+
+                    &.infoTitle {
+                        color: $subFont_1;
+                        font-size: 24px;
+                        margin-bottom: 30px;
+                    }
+
+                    &.remind {
+                        color: $remind_1;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

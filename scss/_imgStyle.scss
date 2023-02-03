@@ -1,0 +1,776 @@
+//header
+
+//忘記密碼
+// header .forget i {
+//     background: url('../images/icon/question.png') no-repeat;
+//     background-size: 100%;
+// }
+//登入後下選單旋轉圖
+header .transferInfo .money i {
+    background: url('../images/icon/svg/loading_g.svg') no-repeat;
+    background-size: 100%;
+}
+//topGameList arrow
+header .topGameList .prev::before,
+header .topGameList .next::before {
+    background: url('../images/icon/arrow_1.png') no-repeat center;
+    background-size:  contain;
+}
+
+
+//mainWrap
+
+//quickBox
+.mainWrap .quickBox li {
+    background: url('../images/mainType_BG.png') no-repeat;
+}
+.mainWrap .quickBox i:not(.arrow_ic) {
+    background: url('../images/mainType_icon.png') no-repeat;
+    background-size: 600%;
+}
+//typeLine
+.mainWrap .typeLine i {
+    background: url('../images/typeLine_line.png') no-repeat center;
+    background-size: contain;
+}
+.mainWrap .typeLine .underLine {
+    background: url('../images/typeLine_underLine.png') no-repeat center;
+    background-size: contain;
+}
+
+
+//sideBar
+
+// .sideBar .inviteBtn a {
+//     background: url('../images/icon/invite.gif') no-repeat;
+//     background-size: contain;
+// }
+// .sideBar .goTop i {
+//     background: url('../images/icon/goTop.png') no-repeat;
+//     background-size: contain;
+// }
+
+
+//footer
+//payment
+footer .top .bank {
+    background: url('../images/partner/footer_payments/bank.png') no-repeat center;
+    background-size: contain;
+}
+footer .top .usdt {
+    background: url('../images/partner/footer_payments/usdt.png') no-repeat center;
+    background-size: contain;
+}
+footer .top .vega {
+    background: url('../images/partner/footer_payments/vega.png') no-repeat center;
+    background-size: contain;
+}
+footer .top .sticpay {
+    background: url('../images/partner/footer_payments/sticpay.png') no-repeat center;
+    background-size: contain;
+}
+footer .top .iwallet {
+    background: url('../images/partner/footer_payments/iwallet.png') no-repeat center;
+    background-size: contain;
+}
+footer .top .tigerpay {
+    background: url('../images/partner/footer_payments/tigerpay.png') no-repeat center;
+    background-size: contain;
+}
+//partner
+footer .footerList .ag {
+    background: url('../images/partner/footer_partner/ag.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .sa {
+    background: url('../images/partner/footer_partner/sa.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .dg {
+    background: url('../images/partner/footer_partner/dg.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .tpg {
+    background: url('../images/partner/footer_partner/tpg.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .og {
+    background: url('../images/partner/footer_partner/og.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .sp {
+    background: url('../images/partner/footer_partner/sp.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .mg {
+    background: url('../images/partner/footer_partner/mg.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .pp {
+    background: url('../images/partner/footer_partner/pp.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .gh {
+    background: url('../images/partner/footer_partner/gh.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .elk {
+    background: url('../images/partner/footer_partner/elk.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .ftp {
+    background: url('../images/partner/footer_partner/ftp.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .pg {
+    background: url('../images/partner/footer_partner/pg.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .bng {
+    background: url('../images/partner/footer_partner/bng.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .ab {
+    background: url('../images/partner/footer_partner/ab.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .pls {
+    background: url('../images/partner/footer_partner/pls.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .rsg {
+    background: url('../images/partner/footer_partner/rsg.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .bp {
+    background: url('../images/partner/footer_partner/bp.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .redtiger {
+    background: url('../images/partner/footer_partner/redtiger.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .ifun {
+    background: url('../images/partner/footer_partner/ifun.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .redrake {
+    background: url('../images/partner/footer_partner/redrake.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .ely {
+    background: url('../images/partner/footer_partner/ely.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .atux {
+    background: url('../images/partner/footer_partner/atux.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .evoplay {
+    background: url('../images/partner/footer_partner/evoplay.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .sport {
+    background: url('../images/partner/footer_partner/sport.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .png {
+    background: url('../images/partner/footer_partner/png.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .relax {
+    background: url('../images/partner/footer_partner/relax.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .wm {
+    background: url('../images/partner/footer_partner/wm.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .ygg {
+    background: url('../images/partner/footer_partner/ygg.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .net {
+    background: url('../images/partner/footer_partner/net.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .jili {
+    background: url('../images/partner/footer_partner/jili.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .nolimit {
+    background: url('../images/partner/footer_partner/nolimit.png') no-repeat center;
+    background-size: contain;
+}
+footer .footerList .evo {
+    background: url('../images/partner/footer_partner/evo.png') no-repeat center;
+    background-size: contain;
+}
+
+
+//gameWrap
+//左大圖
+.gameWrap .title.sport {
+    background: url('../images/partner/sport/sport_title.png') no-repeat center;
+    background-size: contain;
+}
+.gameWrap .title.live {
+    background: url('../images/partner/live/live_title.png') no-repeat center;
+    background-size: contain;
+}
+
+
+//eventDetail .back
+.eventDetail .back {
+    background: url('../images/icon/event_back.png') no-repeat;
+    background-size: contain;
+}
+.eventDetail .btnBox .twitter {
+    background: url('../images/icon/svg/twitter.svg');
+    background-size: contain;
+}
+.eventDetail .btnBox .telegram {
+    background: url('../images/icon/svg/telegram.svg');
+    background-size: contain;
+}
+.eventDetail .btnBox .wechat {
+    background: url('../images/icon/svg/wechat.svg');
+    background-size: contain;
+}
+.eventDetail .btnBox .facebook {
+    background: url('../images/icon/svg/facebook.svg');
+    background-size: contain;
+}
+.eventDetail .btnBox .line {
+    background: url('../images/icon/svg/line.svg');
+    background-size: contain;
+}
+.eventDetail .btnBox .link {
+    background: url('../images/icon/link.png');
+    background-size: contain;
+}
+
+
+//innerPage
+
+//innerSdie
+.innerNav .user_ic,
+.innerNav .user_ic::before {
+    background: url('../images/icon/svg/innerNav_user.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .vip_ic,
+.innerNav .vip_ic::before {
+    background: url('../images/icon/svg/innerNav_vip.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .wallet_ic,
+.innerNav .wallet_ic::before {
+    background: url('../images/icon/svg/innerNav_wallet.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .card_ic,
+.innerNav .card_ic::before {
+    background: url('../images/icon/svg/innerNav_card.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .dealRecord_ic,
+.innerNav .dealRecord_ic::before {
+    background: url('../images/icon/svg/innerNav_dealRecord.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .betRecord_ic,
+.innerNav .betRecord_ic::before {
+    background: url('../images/icon/svg/innerNav_betRecord.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .event_ic,
+.innerNav .event_ic::before {
+    background: url('../images/icon/svg/innerNav_event.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .mail_ic,
+.innerNav .mail_ic::before {
+    background: url('../images/icon/svg/innerNav_mail.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .dividend_ic,
+.innerNav .dividend_ic::before {
+    background: url('../images/icon/svg/innerNav_dividend.svg') no-repeat;
+    background-size: 100%;
+}
+.innerNav .invite_ic,
+.innerNav .invite_ic::before {
+    background: url('../images/icon/svg/innerNav_invite.svg') no-repeat;
+    background-size: 100%;
+}
+
+//.memberWrap
+//sercurity
+.memberWrap .level .data_ic {
+    background: url('../images/icon/svg/data.svg') no-repeat center;
+    background-size: 65%;
+}
+.memberWrap .level .phone_ic {
+    background: url('../images/icon/svg/phone.svg') no-repeat center;
+    background-size: 65%;
+}
+.memberWrap .level .bankcard_ic {
+    background: url('../images/icon/svg/bankcard.svg') no-repeat center;
+    background-size: 65%;
+}
+.memberWrap .level .mail_ic {
+    background: url('../images/icon/svg/mail_w.svg') no-repeat center;
+    background-size: 65%;
+}
+//qr
+.memberWrap .right .qr {
+    background: url('../images/icon/qr.png') no-repeat;
+    background-size: contain;
+}
+
+//vipWrap
+//medal
+.vipHeader .medal {
+    background: url('../images/icon/medal.png') no-repeat;
+    background-size: 100%;
+}
+//arrow
+.vipWrap .back i,
+.vipWrap .detailCardBox .prev,
+.vipWrap .detailCardBox .next {
+    background: url('../images/icon/arrow_1.png') no-repeat center;
+    background-size: contain;
+}
+//cardBG
+.vipWrap .detailCardBox .cardBg {
+    background: url('../images/vip_card.png') no-repeat;
+    background-size: 100%;
+}
+.vipWrap .detailCardBox .cardBg.v2 {
+    background: url('../images/vip_card_2.png') no-repeat;
+    background-size: 100%;
+}
+.vipWrap .detailCardBox .cardBg.v3 {
+    background: url('../images/vip_card_3.png') no-repeat;
+    background-size: 100%;
+}
+
+//inviteWrap
+//qr
+.inviteWrap .right .qr {
+    background: url('../images/icon/qr.png') no-repeat;
+    background-size: 100%;
+}
+//inviteImg
+.inviteWrap .inviteImg {
+    background: url('../images/invite.jpg') no-repeat center;
+    background-size: contain;
+}
+
+//.cardWrap
+.cardWrap .card.empty i {
+    background: url('../images/icon/cardEmpty_ic.png') no-repeat center;
+    background-size: contain;
+}
+
+//pointWrap
+.pointWrap .tableWrap .arrow_ic {
+    background: url('../images/icon/arrow_1.png') no-repeat center;
+    background-size: contain;
+}
+
+//.betWrap
+.betWrap .tableWrap .arrow_ic {
+    background: url('../images/icon/arrow_1.png') no-repeat center;
+    background-size: contain;
+}
+
+//.mailWrap
+.mailWrap.innerMode .title .arrow_ic,
+.mailWrap.innerMode .msgTitle .prev,
+.mailWrap.innerMode .msgTitle .next {
+    background: url('../images/icon/arrow_1.png') no-repeat center;
+    background-size: contain;
+}
+
+//.rightSide
+//arrow
+.rightSide .smallBoard .arrow {
+    background: url('../images/icon/arrow_1.png') no-repeat center;
+    background-size: contain;
+}
+//trans_arrow
+.rightSide .tran_ic {
+    background: url('../images/icon/svg/transfer_arrow.svg') no-repeat;
+    background-size: 100%;
+}
+
+
+//背景
+.bg {
+    background: url('../images/bg.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//dealWrap
+.dealWrap .waterBox .arrow_ic {
+    background: url('../images/icon/svg/arrow_r.svg') no-repeat;
+    background-size: 100%;
+}
+.dealWrap .dealBox .page i,
+.dealWrap .waterBox .page i {
+    background: url('../images/icon/svg/arrow_g.svg') no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+//.mailWrap.innerMode .title .arrow_ic
+.mailWrap.innerMode .title .arrow_ic,
+.mailWrap.innerMode .msgTitle .prev,.mailWrap.innerMode .msgTitle .next {
+    background: url('../images/icon/arrow_1.png') no-repeat center;
+    background-size: contain;
+}
+
+
+
+
+
+//.depositWrap .top button i
+.depositWrap .top .title button i {
+    background: url('../images/icon/question_2.png') no-repeat;
+    background-size: 100%;
+}
+//.depositWrap .list i
+.depositWrap .list .card_ic {
+    background: url('../images/icon/svg/card.svg') no-repeat;
+    background-size: 100%;
+}
+.depositWrap .list .depositIC {
+    background: url('../images/icon/deposit_ic.png') no-repeat;
+    background-size: 500%;
+}
+.depositWrap .list .prev,.depositWrap .list .next {
+    background: url('../images/icon/svg/arrow_r.svg') no-repeat;
+    background-size: 100%;
+}
+
+
+//jumpWindow ic
+.jumpWindow .close_ic {
+    background: url('../images/icon/svg/close_w.svg') no-repeat;
+    background-size: 100%;
+}
+.jumpWindow.betWindow .trans_arrow {
+    background: url('../images/icon/svg/transfer_arrow.svg') no-repeat;
+    background-size: 100%;
+}
+//loading
+.jumpWindow.loading .content div {
+    background: url('../images/icon/svg/loading_b.svg') no-repeat;
+    background-size: 100%;
+}
+.jumpWindow .pageBox .page i {
+    background: url('../images/icon/svg/arrow_g.svg') no-repeat;
+    background-size: contain;
+}
+
+//.slotCenter .slotBody .nav .serach
+.slotBody .search_ic {
+    background: url('../images/icon/svg/search.svg') no-repeat top center;
+    background-size: cover;
+}
+//.pfName按鈕arrow
+.slotBody .pfName button i {
+    background: url('../images/icon/svg/arrow_w.svg') no-repeat;
+    background-size: 100%;
+}
+//.gameList .love
+.slotBody .gameList .textBox .love {
+    background: url('../images/icon/svg/love1.svg') no-repeat;
+    background-size: 100%;
+}
+.slotBody .gameList .textBox .love.active {
+    background: url('../images/icon/svg/love2.svg') no-repeat;
+    background-size: 100%;
+}
+
+
+//.withdrawalWrap .smallTitle reset_ic
+.withdrawalWrap .smallTitle .reset_ic {
+    background: url('../images/icon/svg/refresh.svg') no-repeat;
+    background-size: 100%;
+}
+//withdrawalWrap .platformBox .db_arrow
+.withdrawalWrap .platformBox .db_arrow {
+    background: url('../images/icon/svg/unfold.svg') no-repeat;
+    background-size: 100%;
+}
+.withdrawalWrap .platformBox .remind_ic {
+    background: url('../images/icon/remind.png') no-repeat;
+    background-size: contain;
+}
+
+//transferWrap .walletTitle .reset_ic
+.transferWrap .walletTitle .reset_ic {
+    background: url('../images/icon/svg/refresh.svg') no-repeat;
+    background-size: 100%;
+}
+.transferWrap .platform .db_arrow {
+    background: url('../images/icon/svg/unfold.svg') no-repeat;
+    background-size: 100%;
+}
+.transferWrap .platform .remind_ic {
+    background: url('../images/icon/remind.png') no-repeat;
+    background-size: contain;
+}
+.transferWrap .platformBox .trans_ic {
+    background: url('../images/icon/svg/transfer_arrow.svg') no-repeat;
+    background-size: 100%;
+}
+
+//helpPage .nav i
+.helpPage .nav .arrow_ic {
+    background: url('../images/icon/svg/arrow_r.svg') no-repeat;
+    background-size: 100%;
+}
+.helpPage .nav .bulb {
+    background: url('../images/icon/svg/bulb.svg') no-repeat;
+    background-size: 100%;
+}
+.helpPage .nav .problem {
+    background: url('../images/icon/svg/helpProblem.svg') no-repeat;
+    background-size: 100%;
+}
+.helpPage .nav .aboutUs {
+    background: url('../images/icon/svg/aboutus.svg') no-repeat;
+    background-size: 100%;
+}
+.helpPage .nav .downloadIC{
+    background: url('../images/icon/download.png') no-repeat;
+    background-size: 100%;
+}
+//helpPage .teachList arrow_ic
+.helpPage .teachList .arrow_ic {
+    background: url('../images/icon/svg/arrow_b.svg') no-repeat;
+    background-size: 100%;
+}
+//helpPage .img
+.helpPage .img.online01 {
+    background: url('../images/help/online01.png') no-repeat;
+    background-size: 100%;
+}
+.helpPage .img.online02 {
+    background: url('../images/help/online02.png') no-repeat;
+    background-size: 100%;
+}
+.helpPage .img.online03 {
+    background: url('../images/help/online03.png') no-repeat;
+    background-size: 100%;
+}
+.helpPage .img.online04 {
+    background: url('../images/help/online04.png') no-repeat;
+    background-size: 100%;
+}
+.helpPage .img.online05 {
+    background: url('../images/help/online05.png') no-repeat;
+    background-size: 100%;
+}
+.helpPage .upload_ic {
+    background: url('../images/icon/svg/help_upload.svg') no-repeat;
+    background-size: contain;
+}
+
+//register
+.registerWrap {
+    background: url('../images/registerBG.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.registerWrap .register_ic {
+    background: url('../images/icon/register_ic.png');
+    background-size: contain;
+}
+.registerWrap .eye_ic {
+    background: url('../images/icon/eye.png') no-repeat;
+    background-size: 100%;
+}
+
+.registerWrap .line_ic {
+    background: url('../images/icon/line_ic.png') no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+////////img↓↓↓↓↓↓↓↓↓
+
+
+
+
+
+
+
+
+
+
+
+//pfName 廠商icon
+.pfName img {
+    width: auto;
+    height: 85%;
+}
+
+//.slotBody .gameList img
+.slotBody .gameList img {
+    width: 100%;
+    height: 165px;
+}
+
+
+
+
+//.jumpWindow .checkEvent img
+.checkEvent {
+
+    .imgBox {
+        width: 100%;
+        height: 400px;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}
+
+//register .logo
+.registerWrap .title img {
+    width: 125px;
+    object-fit: contain;
+}
+
+
+
+//invite
+.inviteWrap .bottom img {
+    width: 100%;
+}
+
+//help
+.helpWrap img {
+    width: 100%;
+}
+
+
+//agentPage
+.agentPage .topBanner,
+.agOther .topBanner {
+    background: url('../images/agentBn.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .title::before,
+.agentPage .title::after,
+.agOther .title::before,
+.agOther .title::after {
+    background: url('../images/icon/agentTitle.png') no-repeat;
+    background-size: 200%;
+}
+
+.agRule .leftArea ul li:hover::after,.agRule .leftArea ul li.active::after,
+.agQA .leftArea ul li:hover::after,.agQA .leftArea ul li.active::after{
+    background: url('../images/icon/agLeftArea.png') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_1 {
+    background: url('../images/icon/svg/icon-01.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_2 {
+    background: url('../images/icon/svg/icon-02.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_3 {
+    background: url('../images/icon/svg/icon-03.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_4 {
+    background: url('../images/icon/svg/icon-04.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_5 {
+    background: url('../images/icon/svg/icon-05.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .rulePic {
+    background: url('../images/icon/rule.png') no-repeat;
+    background-size: 100%;
+}
+
+.filter .agRegist .title::before,
+.filter .agRegist .title::after {
+    background: url('../images/icon/starIcon.png') no-repeat;
+    background-size: 200%;
+}
+
+.agOther {
+    background: url('../images/agentBG.png') no-repeat;
+    background-size: cover;
+}
