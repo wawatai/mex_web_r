@@ -580,6 +580,14 @@ $(function(){
             .addClass("display")
             .siblings().removeClass("display");
         }
+        else if($(this).hasClass("forApp"))
+        {
+            var n = $(this).index();
+
+            $(".helpWrap .app:eq("+ n +")")
+            .addClass("display")
+            .siblings().removeClass("display");
+        }
     })
 })
 
@@ -761,20 +769,7 @@ $(function(){
 
 
 
-//register
-$(function(){
-    var phone = $(".registerWrap .phone")
-    var btn = $(".registerWrap .codeBtn");
 
-    $(phone).focus(function(){
-        $(btn)
-        .attr("disabled",false);
-    })
-    $(phone).blur(function(){
-        $(btn)
-        .attr("disabled",true);
-    })
-})
 //退傭代理QA-leftArea
 $(function(){
 	$(".qaOutter").scroll(function () {

@@ -709,6 +709,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 html {
   width: 100%;
   height: auto;
+  background: #000304;
   position: relative;
 }
 html body {
@@ -9066,6 +9067,7 @@ html body .helpPage .center .nav > li.box li:last-child {
 html body .helpPage .center .helpWrap {
   width: 100%;
   height: auto;
+  min-height: 500px;
   background: linear-gradient(30deg, rgba(23, 18, 41, 0.7490196078) 0%, rgba(46, 35, 87, 0.7490196078) 100%);
   border-radius: 16px;
   padding: 48px;
