@@ -101,91 +101,91 @@
         }
 
         //內頁
-        .eventDetail {
-            display: none;
-            width: 100%;
-            height: auto;
-            background: $mainBG_1;
-            border-radius: 16px;
+        // .eventDetail {
+        //     display: none;
+        //     width: 100%;
+        //     height: auto;
+        //     background: $mainBG_1;
+        //     border-radius: 16px;
 
-            &.display {
-                display: block;
-            }
+        //     &.display {
+        //         display: block;
+        //     }
 
-            .title {
-                width: 100%;
-                height: auto;
-                display: flex;
-                align-items: center;
-                padding: 24px;
+        //     .title {
+        //         width: 100%;
+        //         height: auto;
+        //         display: flex;
+        //         align-items: center;
+        //         padding: 24px;
 
-                p {
-                    color: $mainFont_1;
-                    font-size: 24px;
-                    font-weight: bold;
-                }
+        //         p {
+        //             color: $mainFont_1;
+        //             font-size: 24px;
+        //             font-weight: bold;
+        //         }
 
-                button {
-                    width: 30px;
-                    height: 30px;
-                    margin-right: 20px;
-                }
-            }
+        //         button {
+        //             width: 30px;
+        //             height: 30px;
+        //             margin-right: 20px;
+        //         }
+        //     }
 
-            .btnBox {
-                width: 100%;
-                height: auto;
-                display: flex;
-                justify-content: flex-end;
-                padding: 0 40px;
-                margin-bottom: 20px;
+        //     .btnBox {
+        //         width: 100%;
+        //         height: auto;
+        //         display: flex;
+        //         justify-content: flex-end;
+        //         padding: 0 40px;
+        //         margin-bottom: 20px;
 
-                a {
-                    width: 32px;
-                    height: 32px;
-                    margin-right: 8px;
+        //         a {
+        //             width: 32px;
+        //             height: 32px;
+        //             margin-right: 8px;
 
-                    &:last-child {
-                        margin: 0;
-                    }
-                }
-            }
+        //             &:last-child {
+        //                 margin: 0;
+        //             }
+        //         }
+        //     }
 
-            .imgBox {
-                width: 100%;
-                height: 260px;
+        //     .imgBox {
+        //         width: 100%;
+        //         height: 260px;
 
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-            }
+        //         img {
+        //             width: 100%;
+        //             height: 100%;
+        //             object-fit: cover;
+        //         }
+        //     }
 
-            .info {
-                width: 100%;
-                height: auto;
-                min-height: 500px;
-                padding: 24px;
+        //     .info {
+        //         width: 100%;
+        //         height: auto;
+        //         min-height: 500px;
+        //         padding: 24px;
                 
-                p {
-                    color: $mainFont_1;
-                    font-size: 14px;
-                    font-weight: bold;
-                    line-height: 20px;
+        //         p {
+        //             color: $mainFont_1;
+        //             font-size: 14px;
+        //             font-weight: bold;
+        //             line-height: 20px;
 
-                    &.infoTitle {
-                        color: $subFont_1;
-                        font-size: 24px;
-                        margin-bottom: 30px;
-                    }
+        //             &.infoTitle {
+        //                 color: $subFont_1;
+        //                 font-size: 24px;
+        //                 margin-bottom: 30px;
+        //             }
 
-                    &.remind {
-                        color: $remind_1;
-                        margin-bottom: 20px;
-                    }
-                }
-            }
-        }
+        //             &.remind {
+        //                 color: $remind_1;
+        //                 margin-bottom: 20px;
+        //             }
+        //         }
+        //     }
+        // }
     }
 }

@@ -1,4 +1,4 @@
-$mainBG_1: linear-gradient(-150deg,#171229bf 0%,#2E2357bf 100%);
+$mainBG_1: linear-gradient(30deg,#171229bf 0%,#2E2357bf 100%);
 
 $subBG_1: #171229;
 $subBG_2: #ffffff26;
@@ -18,8 +18,12 @@ $mainShadow_1: #00F9FF;
 $remind_1: #94FFBF;
 $remind_2: #ff0000;
 
+$filter: #0000009e;
+
 //header
 $header_BG: linear-gradient(to bottom,#000000 0%,#000000 70%,transparent 100%);
+$header_hoverBG: linear-gradient(to bottom, #000000 0%, #000000 70%, #220f5de6 100%);
+$header_scrollBG: #000000;
 $header_Hover: #A49FFC;
 // $header_Forget: #ff9b1f;
 // $header_langBorder: #5a481c;
@@ -210,6 +214,34 @@ $ad_BG: #0D0D0D;
 //typeLine
 $typeLine_subColor: #00FFFF;
 
+//slotPage
+@mixin slotInput {
+    background: #ffffff80;
+    border-radius: 30px;
+    border: none;
+    color: #6B708D;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 40px;
+
+    &::placeholder {
+        color: #6B708D;
+    }
+}
+@mixin slotBtn_1 {
+    background: linear-gradient(to right,#E3C91C 0%,#F451BE 100%);
+    border: none;
+    border-radius: 10px;
+    color: #EDECFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 15px;
+
+    &:hover,&:active,&.active {
+        background: #F451BE;
+    }
+}
+
 //innerPage
 //lv樣式
 @mixin level {
@@ -312,19 +344,6 @@ $check: #64E564;
     }
 }
 @mixin mailBtn_2 {
-    background: linear-gradient(to right,#52119F 0%,#BD51F4 100%);
-    border: none;
-    border-radius: 12px;
-    color: #EDECFF;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 0 15px;
-
-    &:hover,&:active,&.active {
-        background: #BD51F4;
-    }
-}
-@mixin mailBtn_3 {
     background: #DB6161;
     border: none;
     border-radius: 12px;
@@ -337,6 +356,61 @@ $check: #64E564;
         background: #D22424;
     }
 }
+
+//deposit
+@mixin depositBtn {
+    background: #1F1137;
+    border-radius: 16px;
+    border: solid 1px #A4BFFF;
+    color: #A4BFFF;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0;
+
+    &.active {
+        
+        &::before,
+        &::after {
+            display: block;
+        }
+    }
+
+    &::before {
+        display: none;
+        content: "";
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+        width: 40px;
+        height: 40px;
+        background: #A4BFFF;
+        transform: rotate(45deg);
+    }
+
+    &::after {
+        display: none;
+        content: "";
+        position: absolute;
+        right: 4px;
+        bottom: 7px;
+        width: 10px;
+        height: 5px;
+        border-style: solid;
+        border-width: 0px 0px 1px 1px;
+        border-color: #1F1137;
+        transform: rotate(-45deg);
+    }
+}
+
+//彈窗
+$jumpWindow_BG: linear-gradient(-150deg,#171229 0%,#2E2357 100%);
 
 
 //button
@@ -387,6 +461,13 @@ $check: #64E564;
         background: linear-gradient(-120deg,#6140B3 0%,#469FE3 100%);
         color: #ffffff;
     }
+}
+
+button:disabled {
+    color: #BEBEBE !important;
+    background: #808080 !important;
+    box-shadow: none !important;
+    border: none !important;
 }
 
 
@@ -570,31 +651,15 @@ $disable: #999999;
 
 
 //選擇色
-$choose_Word: #ffc13c;
-$choose_Word2: #8f702d;
+
 $choose_Active: #ff4719;
-$choose_Border: #ff4719;
+
 $choose_BG: #101010;
 
 //金錢色
 $money: #ffffff;
 
-//連結色
-$link: #FF6623;
-$link_2: #008599;
-$link_register: #1c39af;
 
-//背景半透明黑
-$filter: #0000009e;
-
-//goTop
-$goTop_BG: #ddb90fe6;
-
-//彈窗色
-$jumpWindow_Header: linear-gradient(90deg,#ffae00,#fec026);
-$jumpWindow_Title: #181818;
-$jumpWindow_BG: #181818;
-$jumpWindow_Border: #ffc13c;
 
 
 
@@ -710,70 +775,11 @@ $register_BG: linear-gradient(to top,#d2ae63 8%,#f1dfa7 53%,#f1dfa7 65%,#fffde1 
 //deposit
 $deposit_Title: #ff4719;
 $deposit_postNum: #ffffff;
-@mixin depositBtn {
-    background: #101010;
-    border-radius: 5px;
-    border: solid 1px #a88335;
-    color: #ffc13c;
-    font-size: 14px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    cursor: pointer;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    position: relative;
-    overflow: hidden;
 
-    &:hover,&:active {
-        background: #ffc13c;
-        color: #101010;
-    }
-
-    &.active {
-        
-        &::before,
-        &::after {
-            display: block;
-        }
-    }
-
-    &::before {
-        display: none;
-        content: "";
-        position: absolute;
-        right: -20px;
-        bottom: -20px;
-        width: 40px;
-        height: 40px;
-        background: #ffc13c;
-        transform: rotate(45deg);
-    }
-
-    &::after {
-        display: none;
-        content: "";
-        position: absolute;
-        right: 4px;
-        bottom: 7px;
-        width: 10px;
-        height: 5px;
-        border-style: solid;
-        border-width: 0px 0px 1px 1px;
-        border-color: #000000;
-        transform: rotate(-45deg);
-    }
-}
 
 //withdrawal
 $withdrawal_limitWord: #e34119;
 
-//help
-$help_remind: #ff4719;
-$help_innerBox_BG: #2a2a2a;
-$help_innerBox_Border: #979797;
 
 
 //button
@@ -840,25 +846,6 @@ $help_fastBtn_BG: #282828;
 }
 
 
-//黃底大按鈕
-@mixin footerBtn {
-    background: #ffbb17;
-    border-radius: 5px;
-    color: #000000;
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.3s all;
-    text-align: center;
-
-    &:hover,&:active,&.active {
-        background: #ff4719;
-        color: #ffffff;
-
-        &::before {
-            display: none;
-        }
-    }
-}
 //編輯按鈕
 @mixin editBtn {
     background: #101010;

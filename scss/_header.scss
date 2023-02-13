@@ -7,6 +7,13 @@ header {
     left: 0;
     z-index: 100;
 
+    &.scroll {
+        background: $header_scrollBG;
+    }
+    &.linear {
+        background: $header_hoverBG;
+    }
+
     //上部
     .top {
         width: 1400px;
@@ -18,9 +25,10 @@ header {
 
         //logo
         .logo {
-            width: 147px;
-            height: 36px;
+            width: 195px;
+            height: 67px;
             object-fit: contain;
+            cursor: pointer;
         }
 
         //跑馬燈
@@ -417,7 +425,7 @@ header {
         transition: 0.3s all;
 
         &.display {
-            height: 280px;
+            height: 240px;
         }
 
         .listWrap {
@@ -488,7 +496,7 @@ header {
                                     width: 188px;
                                     height: 184px;
                                     cursor: pointer;
-                                    margin-right: 20px;
+                                    margin: 0 20px 24px 0;
         
                                     img {
                                         width: 100%;
