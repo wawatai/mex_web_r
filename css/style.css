@@ -491,56 +491,6 @@ footer .footerList .evo {
   background: url("../images/bg.jpg") no-repeat top center;
 }
 
-.jumpWindow.betWindow .trans_arrow {
-  background: url("../images/icon/svg/transfer_arrow.svg") no-repeat;
-  background-size: 100%;
-}
-
-.jumpWindow.loading .content div {
-  background: url("../images/icon/svg/loading_b.svg") no-repeat;
-  background-size: 100%;
-}
-
-.jumpWindow .pageBox .page i {
-  background: url("../images/icon/svg/arrow_g.svg") no-repeat;
-  background-size: contain;
-}
-
-.withdrawalWrap .smallTitle .reset_ic {
-  background: url("../images/icon/svg/refresh.svg") no-repeat;
-  background-size: 100%;
-}
-
-.withdrawalWrap .platformBox .db_arrow {
-  background: url("../images/icon/svg/unfold.svg") no-repeat;
-  background-size: 100%;
-}
-
-.withdrawalWrap .platformBox .remind_ic {
-  background: url("../images/icon/remind.png") no-repeat;
-  background-size: contain;
-}
-
-.transferWrap .walletTitle .reset_ic {
-  background: url("../images/icon/svg/refresh.svg") no-repeat;
-  background-size: 100%;
-}
-
-.transferWrap .platform .db_arrow {
-  background: url("../images/icon/svg/unfold.svg") no-repeat;
-  background-size: 100%;
-}
-
-.transferWrap .platform .remind_ic {
-  background: url("../images/icon/remind.png") no-repeat;
-  background-size: contain;
-}
-
-.transferWrap .platformBox .trans_ic {
-  background: url("../images/icon/svg/transfer_arrow.svg") no-repeat;
-  background-size: 100%;
-}
-
 .checkEvent .imgBox {
   width: 100%;
   height: 400px;
@@ -2415,632 +2365,6 @@ html body .filter .jumpWindow.forgetPassword form p {
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
-}
-html body .filter .jumpWindow.checkEvent {
-  display: none;
-  width: 840px;
-}
-html body .filter .jumpWindow.checkEvent.display {
-  display: block;
-}
-html body .filter .jumpWindow.checkEvent .content {
-  width: 100%;
-  height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 28px 47px;
-}
-html body .filter .jumpWindow.checkEvent .content .imgBox {
-  overflow-x: auto;
-}
-html body .filter .jumpWindow.checkEvent .content p {
-  font-size: 16px;
-  letter-spacing: 1px;
-  color: #EDECFF;
-  margin-top: 10px;
-  font-weight: bold;
-  line-height: 20px;
-}
-html body .filter .jumpWindow.checkEvent .btnBox {
-  width: 100%;
-  height: auto;
-  padding: 18px 0;
-  text-align: center;
-}
-html body .filter .jumpWindow.checkEvent .btnBox button {
-  width: 322px;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#6140B3), to(#469FE3));
-  background: linear-gradient(to right, #6140B3 0%, #469FE3 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-}
-html body .filter .jumpWindow.checkEvent .btnBox button:hover, html body .filter .jumpWindow.checkEvent .btnBox button:active, html body .filter .jumpWindow.checkEvent .btnBox button.active {
-  background: #3894D3;
-}
-html body .filter .jumpWindow.loading {
-  display: none;
-  width: 360px;
-}
-html body .filter .jumpWindow.loading.display {
-  display: block;
-}
-html body .filter .jumpWindow.loading .content {
-  padding: 24px 0;
-}
-html body .filter .jumpWindow.loading .content div {
-  width: 100px;
-  height: 100px;
-  -webkit-animation: loading 1.5s linear 0s infinite;
-          animation: loading 1.5s linear 0s infinite;
-  margin: 0 auto;
-}
-html body .filter .jumpWindow.loading .content p {
-  text-align: center;
-  font-size: 14px;
-  font-weight: bold;
-  color: #d78f3a;
-  margin-top: 20px;
-}
-@-webkit-keyframes loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-@keyframes loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-html body .filter .jumpWindow.pointWindow {
-  display: none;
-}
-html body .filter .jumpWindow.pointWindow.display {
-  display: block;
-}
-html body .filter .jumpWindow.pointWindow .content {
-  padding: 24px 24px 10px;
-}
-html body .filter .jumpWindow.pointWindow .content table {
-  width: 490px;
-  height: auto;
-  -webkit-box-shadow: 0 0 0 1px #b5833b;
-          box-shadow: 0 0 0 1px #b5833b;
-  background: #272727;
-}
-html body .filter .jumpWindow.pointWindow .content table tr:last-child td {
-  border: none;
-}
-html body .filter .jumpWindow.pointWindow .content table tr th {
-  vertical-align: middle;
-  height: 30px;
-  border-bottom: solid 2px #c69c6d;
-}
-html body .filter .jumpWindow.pointWindow .content table tr th:last-child p {
-  border: none;
-}
-html body .filter .jumpWindow.pointWindow .content table tr th p {
-  font-size: 14px;
-  font-weight: bold;
-  border-right: solid 1px #b5833b;
-  color: #ffc13c;
-}
-html body .filter .jumpWindow.pointWindow .content table tr td {
-  width: 50%;
-  vertical-align: middle;
-  height: 40px;
-}
-html body .filter .jumpWindow.pointWindow .content table tr td:last-child p {
-  border: none;
-}
-html body .filter .jumpWindow.pointWindow .content table tr td p {
-  font-size: 14px;
-  font-weight: bold;
-  color: #ffc13c;
-  border-right: solid 1px #b5833b;
-  text-align: center;
-}
-html body .filter .jumpWindow.pointWindow .content .pageBox {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 10px;
-}
-html body .filter .jumpWindow.pointWindow .content .pageBox p {
-  color: #6795FF;
-  font-size: 12px;
-  font-weight: bold;
-}
-html body .filter .jumpWindow.pointWindow .content .pageBox .page {
-  width: auto;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 10px;
-}
-html body .filter .jumpWindow.pointWindow .content .pageBox .page i {
-  display: block;
-  width: 7px;
-  height: 11px;
-  cursor: pointer;
-}
-html body .filter .jumpWindow.pointWindow .content .pageBox .page i.arrow_right {
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-html body .filter .jumpWindow.pointWindow .content .pageBox .page button {
-  width: 28px;
-  height: 28px;
-  background: transparent;
-  border-radius: 10px;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: bold;
-  margin-right: 8px;
-}
-html body .filter .jumpWindow.pointWindow .content .pageBox .page button:hover, html body .filter .jumpWindow.pointWindow .content .pageBox .page button:active, html body .filter .jumpWindow.pointWindow .content .pageBox .page button.active {
-  background: #ffc13c;
-  color: #000000;
-}
-html body .filter .jumpWindow.pointWindow .content .pageBox .page button:nth-of-type(1) {
-  margin-left: 8px;
-}
-html body .filter .jumpWindow.ruleWindow {
-  width: 840px;
-  display: none;
-}
-html body .filter .jumpWindow.ruleWindow.display {
-  display: block;
-}
-html body .filter .jumpWindow.ruleWindow .content {
-  width: 90%;
-  height: 400px;
-  margin: 28px auto;
-  overflow-y: auto;
-}
-html body .filter .jumpWindow.ruleWindow .content::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-html body .filter .jumpWindow.ruleWindow .content::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border-radius: 10px;
-}
-html body .filter .jumpWindow.ruleWindow .content::-webkit-scrollbar-track {
-  background: #ffffff;
-  border-radius: 10px;
-}
-html body .filter .jumpWindow.ruleWindow .content .smallTitle {
-  margin: 40px 0;
-  color: #EDECFF;
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-html body .filter .jumpWindow.ruleWindow .content .smallTitle:nth-of-type(1) {
-  margin-top: 0;
-}
-html body .filter .jumpWindow.ruleWindow .content p:not(.smallTitle) {
-  color: #6795FF;
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 22px;
-  letter-spacing: 1px;
-}
-html body .filter .jumpWindow.ruleWindow .content ul {
-  width: 100%;
-  height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-left: 32px;
-}
-html body .filter .jumpWindow.ruleWindow .content ul li {
-  list-style: disc;
-  color: #EDECFF;
-  margin: 60px 0;
-}
-html body .filter .jumpWindow.ruleWindow .content ul li:nth-of-type(1) {
-  margin-top: 0;
-}
-html body .filter .jumpWindow.ruleWindow .content ul ol {
-  width: 100%;
-  height: auto;
-  padding-left: 32px;
-  margin-top: 30px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-html body .filter .jumpWindow.ruleWindow .content ul ol li {
-  list-style: decimal;
-  margin: 20px 0;
-}
-html body .filter .jumpWindow.ruleWindow .content ul ol li:last-child {
-  margin: 0;
-}
-html body .filter .jumpWindow.ruleWindow .btnBox {
-  width: 100%;
-  height: auto;
-  margin: 20px 0;
-  text-align: center;
-}
-html body .filter .jumpWindow.ruleWindow .btnBox button {
-  width: 322px;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#6140B3), to(#469FE3));
-  background: linear-gradient(to right, #6140B3 0%, #469FE3 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-}
-html body .filter .jumpWindow.ruleWindow .btnBox button:hover, html body .filter .jumpWindow.ruleWindow .btnBox button:active, html body .filter .jumpWindow.ruleWindow .btnBox button.active {
-  background: #3894D3;
-}
-html body .filter .jumpWindow.agRegist {
-  width: 922px;
-  min-width: 922px;
-  height: auto;
-  display: none;
-  position: relative;
-}
-html body .filter .jumpWindow.agRegist.darkness {
-  position: absolute;
-  -webkit-filter: brightness(0.5);
-          filter: brightness(0.5);
-}
-html body .filter .jumpWindow.agRegist.display {
-  display: block;
-}
-html body .filter .jumpWindow.agRegist .title {
-  font-weight: bolder;
-  position: relative;
-}
-html body .filter .jumpWindow.agRegist .title::before {
-  content: "";
-  width: 54px;
-  height: 26px;
-  background-position-x: 100%;
-  position: absolute;
-  top: 12;
-  left: 344px;
-}
-html body .filter .jumpWindow.agRegist .title::after {
-  content: "";
-  width: 54px;
-  height: 26px;
-  background-position-x: 0%;
-  position: absolute;
-  top: 12;
-  right: 344px;
-}
-html body .filter .jumpWindow.agRegist .content {
-  width: 100%;
-  height: auto;
-  padding: 35px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-html body .filter .jumpWindow.agRegist .content form {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-html body .filter .jumpWindow.agRegist .content form .block {
-  width: 48%;
-  height: auto;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox .inputName {
-  font-size: 18px;
-  font-weight: bold;
-  color: #fb770a;
-  margin-bottom: 13px;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox .inputName span {
-  color: #ff0000;
-  font-weight: bold;
-  margin-right: 8px;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox input {
-  width: 100%;
-  height: 44px;
-  background: #483F6E;
-  border-radius: 12px;
-  border: none;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding-left: 15px;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox input::-webkit-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox input::-moz-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox input:-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox input::-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox input::placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox input:focus {
-  outline: solid 2px #ff0000;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox .remindText {
-  font-size: 14px;
-  font-weight: bold;
-  color: #ff0000;
-  line-height: 18px;
-  margin: 7px 0 16px;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox ul li input {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  cursor: pointer;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox ul li input::before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  border: 1px solid #EDECFF;
-  margin-right: 8px;
-  background: #101010;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox ul li input::after {
-  content: "√";
-  font-size: 18px;
-  color: #EDECFF;
-  position: absolute;
-  top: -1px;
-  left: 5px;
-  opacity: 0;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox ul li input:checked::after {
-  opacity: 1;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .inputBox ul li .checkboxName {
-  font-size: 15px;
-  color: #EDECFF;
-  margin: 6px;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .adj {
-  margin-bottom: 35px;
-}
-html body .filter .jumpWindow.agRegist .content form .block label .last {
-  margin-bottom: 0;
-}
-html body .filter .jumpWindow.agRegist .content form .block .btnBox {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0px 94px 19px 91px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-html body .filter .jumpWindow.agRegist .content form .block .btnBox input {
-  width: 15px;
-  height: 15px;
-  position: relative;
-  cursor: pointer;
-}
-html body .filter .jumpWindow.agRegist .content form .block .btnBox input::before {
-  content: "";
-  width: 19px;
-  height: 19px;
-  border: 1px solid #EDECFF;
-  border-radius: 15px;
-  margin-right: 8px;
-  background: #101010;
-  position: absolute;
-  top: -4px;
-  left: -3px;
-}
-html body .filter .jumpWindow.agRegist .content form .block .btnBox input::after {
-  content: "√";
-  font-size: 18px;
-  color: #EDECFF;
-  position: absolute;
-  top: -5px;
-  left: 1px;
-  opacity: 0;
-}
-html body .filter .jumpWindow.agRegist .content form .block .btnBox input:checked::after {
-  opacity: 1;
-}
-html body .filter .jumpWindow.agRegist .content form .block .btnBox .agree {
-  font-size: 18px;
-  font-weight: bold;
-  color: #EDECFF;
-  text-decoration: underline;
-  margin-left: 9px;
-  cursor: pointer;
-}
-html body .filter .jumpWindow.agRegist .content form .block .apply {
-  background: -webkit-gradient(linear, left top, right top, from(#6140B3), to(#469FE3));
-  background: linear-gradient(to right, #6140B3 0%, #469FE3 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-  width: 100%;
-  height: auto;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 50px;
-  padding: 7px 130px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 20px;
-  cursor: pointer;
-}
-html body .filter .jumpWindow.agRegist .content form .block .apply:hover, html body .filter .jumpWindow.agRegist .content form .block .apply:active, html body .filter .jumpWindow.agRegist .content form .block .apply.active {
-  background: #3894D3;
-}
-html body .filter .jumpWindow.agApply {
-  width: 360px;
-  height: auto;
-  position: relative;
-  display: none;
-}
-html body .filter .jumpWindow.agApply.display {
-  display: block;
-}
-html body .filter .jumpWindow.agApply .content {
-  width: 100%;
-  height: auto;
-  padding: 50px 40px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-html body .filter .jumpWindow.agApply .content p {
-  color: #EDECFF;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: center;
-}
-html body .filter .jumpWindow.agTerms {
-  width: 840px;
-  display: none;
-  position: relative;
-}
-html body .filter .jumpWindow.agTerms.display {
-  display: block;
-}
-html body .filter .jumpWindow.agTerms .content {
-  width: 90%;
-  height: 400px;
-  margin: 28px auto;
-  overflow-y: auto;
-}
-html body .filter .jumpWindow.agTerms .content::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-html body .filter .jumpWindow.agTerms .content::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border-radius: 10px;
-}
-html body .filter .jumpWindow.agTerms .content::-webkit-scrollbar-track {
-  background: #ffffff;
-  border-radius: 10px;
-}
-html body .filter .jumpWindow.agTerms .content .contentBlock {
-  width: 98%;
-  height: auto;
-  margin-bottom: 20px;
-  position: relative;
-}
-html body .filter .jumpWindow.agTerms .content .contentBlock .smallTitle {
-  margin: 40px 0 20px;
-  color: #EDECFF;
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-html body .filter .jumpWindow.agTerms .content .contentBlock .info {
-  color: #999999;
-  font-size: 13px;
-  line-height: 20px;
-  font-weight: bold;
-}
-html body .filter .jumpWindow.agTerms .content .contentBlock .info .chapter {
-  color: #ffffff;
-  margin-right: 5px;
-}
-html body .filter .jumpWindow.agTerms .content .contentBlock .info .keyword {
-  color: #ff4719;
-}
-html body .filter .jumpWindow.agTerms .content .contentBlock .chapterBox {
-  width: 98%;
-  height: auto;
-  margin: 5px 20px;
-}
-html body .filter .jumpWindow.agTerms .content .contentBlock .chapterBox .infoChapter {
-  color: #999999;
-  font-size: 13px;
-  line-height: 20px;
-  font-weight: bold;
-}
-html body .filter .jumpWindow.agTerms .content .contentBlock .chapterBox .infoChapter .chapter {
-  color: #ffffff;
-  margin-right: 5px;
-}
-html body .filter .jumpWindow.agTerms .btnBox {
-  width: 100%;
-  height: auto;
-  margin: 20px 0;
-  text-align: center;
-}
-html body .filter .jumpWindow.agTerms .btnBox button {
-  width: 322px;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#6140B3), to(#469FE3));
-  background: linear-gradient(to right, #6140B3 0%, #469FE3 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-}
-html body .filter .jumpWindow.agTerms .btnBox button:hover, html body .filter .jumpWindow.agTerms .btnBox button:active, html body .filter .jumpWindow.agTerms .btnBox button.active {
-  background: #3894D3;
 }
 html body .filter .jumpWindow .title {
   width: 100%;
@@ -4917,6 +4241,8 @@ html body .innerPage .center .vipWrap.innerMode .detailTitle {
   margin: 40px 0 20px;
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox {
+  width: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4926,8 +4252,6 @@ html body .innerPage .center .vipWrap.innerMode .detailCardBox {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
-  height: auto;
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox i {
   width: 9px;
@@ -4943,20 +4267,22 @@ html body .innerPage .center .vipWrap.innerMode .detailCardBox i.next {
   margin-left: 15px;
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap {
-  overflow: hidden;
   width: 100%;
   height: auto;
+  overflow: hidden;
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul {
+  width: auto;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1740px;
-  height: 152px;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li {
+  width: auto;
+  height: auto;
   margin-right: 20px;
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li:last-child {
@@ -4964,25 +4290,17 @@ html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li:last-
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li .cardBg {
   width: 280px;
-  height: 152px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  height: 154px;
   padding: 0 10px;
-  border-radius: 15px;
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li .cardBg .title {
-  color: #ffffff;
-  text-shadow: 1px 2px 3px #000000;
-  font-size: 12px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 22px;
-  font-style: italic;
   width: 100%;
   height: 86px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-left: 15px;
+  color: #EDECFF;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5019607843);
+  font-style: italic;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4992,6 +4310,7 @@ html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li .card
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-left: 15px;
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li .cardBg .title.sp {
   padding-left: 60px;
@@ -5013,10 +4332,10 @@ html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li .card
 html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li .cardBg .content div p {
   width: 100%;
   height: auto;
-  color: #ffffff;
-  text-shadow: 1px 2px 3px #000000;
+  color: #EDECFF;
   font-size: 12px;
   font-weight: bold;
+  text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5019607843);
   text-align: center;
 }
 html body .innerPage .center .vipWrap.innerMode .detailCardBox .wrap ul li .cardBg .content div p.text {
@@ -8102,278 +7421,150 @@ html body .innerPage .center .depositWrap .bottom .remindBox p:not(.smallTitle).
   color: #FF7777;
 }
 html body .innerPage .center .transferWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-html body .innerPage .center .transferWrap .transferMiddle {
   width: 880px;
   height: auto;
+  background: linear-gradient(30deg, rgba(23, 18, 41, 0.7490196078) 0%, rgba(46, 35, 87, 0.7490196078) 100%);
+  border-radius: 16px;
   margin-right: 15px;
-  background: #1f1f1f;
-  border-radius: 5px;
 }
-html body .innerPage .center .transferWrap .transferMiddle .title {
-  width: 100%;
+html body .innerPage .center .transferWrap h1 {
+  width: 94%;
   height: 50px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-bottom: solid 1px #b5833b;
-}
-html body .innerPage .center .transferWrap .transferMiddle .title div {
-  color: #EDECFF;
-  font-size: 20px;
-  letter-spacing: 2px;
+  border-bottom: solid 2px #8A8A8A;
+  color: #6795FF;
+  font-size: 18px;
   font-weight: bold;
-}
-html body .innerPage .center .transferWrap .transferMiddle .wallet {
-  width: 100%;
-  height: 130px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-bottom: solid 1px #b5833b;
+  padding: 0 5px;
+  margin: 0 auto;
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet {
-  width: 49%;
-  height: 100%;
-  padding: 18px 25px 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 17px;
-  letter-spacing: 2px;
-  color: #fb770a;
-  font-weight: bold;
-}
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle p .reset_ic {
-  display: block;
-  width: 16px;
-  height: 16px;
-  margin-left: 6px;
-}
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle button {
-  width: auto;
+html body .innerPage .center .transferWrap .wallet {
+  width: 94%;
   height: auto;
-  background: #f5951f;
-  border-radius: 5px;
-  border: none;
-  color: #000000;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 3px 5px;
+  border-bottom: solid 1px #8A8A8A;
+  padding: 16px 0;
+  margin: 0 auto;
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle button:hover, html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle button:active, html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle button.active {
-  background: #fb770a;
-  color: #ffffff;
-}
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .amount {
+html body .innerPage .center .transferWrap .wallet .walletTitle {
   width: 100%;
   height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 13px 0 0 10px;
-  font-size: 43px;
-  font-weight: bold;
-  color: #ffffff;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform {
-  width: 100%;
-  height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 21px 23px 0;
-  border-bottom: solid 1px #b5833b;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform .platformTitle {
-  font-size: 17px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-  color: #EDECFF;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul {
-  width: 100%;
-  height: 120px;
-  overflow: hidden;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px 10px;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul.active {
-  height: auto;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul.three {
-  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
-  grid-template-columns: repeat(3, 1fr);
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul.three li div p {
-  width: auto;
-  overflow: initial;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul.three li div .re_ic {
-  margin-left: 5px;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li {
-  width: auto;
-  height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 5px;
-  padding: 28px 0;
-  background: #272727;
-  border-radius: 5px;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 15px;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li div p {
-  width: 70%;
-  color: #EDECFF;
+html body .innerPage .center .transferWrap .wallet .walletTitle p {
+  color: #BEBEBE;
   font-size: 16px;
   font-weight: bold;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li div .re_ic {
-  display: block;
+html body .innerPage .center .transferWrap .wallet .walletTitle p .reset_ic {
   width: 16px;
   height: 16px;
-  cursor: pointer;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li p {
-  width: 100%;
-  font-size: 25px;
-  color: #ffffff;
-  font-weight: bold;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-left: 20px;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li p.remind {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #ff0000;
-  font-size: 17px;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li p.remind i {
-  display: block;
-  width: 17px;
-  height: 17px;
-  margin-right: 5px;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform .open {
-  width: 100%;
-  height: auto;
-  padding: 23px 0 35px;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform .open.active button i {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform .open button {
-  color: #d78f3a;
-  background: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 13px;
-}
-html body .innerPage .center .transferWrap .transferMiddle .platform .open button i {
-  display: block;
-  width: 14px;
-  height: 14px;
   margin-left: 10px;
-  -webkit-transition: 0.3s all;
-  transition: 0.3s all;
 }
-html body .innerPage .center .transferWrap .transferMiddle form {
+html body .innerPage .center .transferWrap .wallet .walletTitle button {
+  width: auto;
+  height: 28px;
+  background: -webkit-gradient(linear, left top, right top, from(#6140B3), to(#469FE3));
+  background: linear-gradient(to right, #6140B3 0%, #469FE3 100%);
+  border: none;
+  border-radius: 10px;
+  color: #EDECFF;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 15px;
+  margin-left: 10px;
+}
+html body .innerPage .center .transferWrap .wallet .walletTitle button:hover, html body .innerPage .center .transferWrap .wallet .walletTitle button:active, html body .innerPage .center .transferWrap .wallet .walletTitle button.active {
+  background: #3894D3;
+}
+html body .innerPage .center .transferWrap .wallet .amount {
+  color: #EDECFF;
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+html body .innerPage .center .transferWrap .platform {
   width: 100%;
   height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 25px 0 36px 27px;
+  border-bottom: solid 1px #EDECFF;
+  padding: 24px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .formTitle {
+html body .innerPage .center .transferWrap .platform .platformTitle {
+  color: #6795FF;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+html body .innerPage .center .transferWrap .platform ul {
+  width: 100%;
+  min-height: 367px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  overflow: hidden;
+}
+html body .innerPage .center .transferWrap .platform ul li {
+  width: auto;
+  height: auto;
+  min-height: 105px;
+  background: rgba(0, 0, 0, 0.1490196078);
+  border-radius: 16px;
+  border: solid 1px #A4BFFF;
+  padding: 15px;
+}
+html body .innerPage .center .transferWrap .platform ul li .title {
+  color: #BEBEBE;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+html body .innerPage .center .transferWrap .platform ul li .amount {
+  color: #EDECFF;
+  font-size: 24px;
+  font-weight: bold;
+}
+html body .innerPage .center .transferWrap form {
+  width: 100%;
+  height: auto;
+  padding: 24px;
+}
+html body .innerPage .center .transferWrap form .formTitle {
+  color: #6795FF;
+  font-size: 16px;
+  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin-bottom: 25px;
-  font-size: 17px;
-  letter-spacing: 2px;
-  color: #EDECFF;
-  font-weight: bold;
+  margin-bottom: 20px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .formTitle .remind {
+html body .innerPage .center .transferWrap form .formTitle .remind {
+  color: #FF7777;
+  font-size: 12px;
   margin-left: 25px;
-  font-size: 14px;
-  letter-spacing: 1px;
-  color: #94FFBF;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox {
+html body .innerPage .center .transferWrap form .platformBox {
+  width: 690px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8383,22 +7574,19 @@ html body .innerPage .center .transferWrap .transferMiddle form .platformBox {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 690px;
-  height: auto;
   margin-bottom: 20px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox p {
+html body .innerPage .center .transferWrap form .platformBox p {
   width: 100px;
+  color: #EDECFF;
   font-size: 14px;
-  color: #fb770a;
   font-weight: bold;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox .trans_ic {
-  display: block;
+html body .innerPage .center .transferWrap form .platformBox .trans_ic {
   width: 27px;
   height: 23px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox select {
+html body .innerPage .center .transferWrap form .platformBox select {
   width: 256px;
   height: 42px;
   background: #483F6E;
@@ -8413,33 +7601,30 @@ html body .innerPage .center .transferWrap .transferMiddle form .platformBox sel
   background-repeat: no-repeat;
   padding-left: 15px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox select option {
+html body .innerPage .center .transferWrap form .platformBox select option {
   background: #2B2446;
   color: #EDECFF;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox {
+html body .innerPage .center .transferWrap form .moneyBox {
   width: auto;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox p {
+html body .innerPage .center .transferWrap form .moneyBox p {
   width: 100px;
+  color: #EDECFF;
   font-size: 14px;
   font-weight: bold;
-  color: #fb770a;
   margin-top: 14px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox {
+html body .innerPage .center .transferWrap form .moneyBox .inputBox {
   width: auto;
   height: auto;
   margin-left: 17px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input {
+html body .innerPage .center .transferWrap form .moneyBox .inputBox input {
   width: 256px;
   height: 42px;
   background: #483F6E;
@@ -8450,56 +7635,164 @@ html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .input
   font-weight: bold;
   padding-left: 15px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input::-webkit-input-placeholder {
+html body .innerPage .center .transferWrap form .moneyBox .inputBox input::-webkit-input-placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input::-moz-placeholder {
+html body .innerPage .center .transferWrap form .moneyBox .inputBox input::-moz-placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input:-ms-input-placeholder {
+html body .innerPage .center .transferWrap form .moneyBox .inputBox input:-ms-input-placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input::-ms-input-placeholder {
+html body .innerPage .center .transferWrap form .moneyBox .inputBox input::-ms-input-placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input::placeholder {
+html body .innerPage .center .transferWrap form .moneyBox .inputBox input::placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input:focus {
+html body .innerPage .center .transferWrap form .moneyBox .inputBox input:focus {
   outline: solid 2px #ff0000;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox {
+html body .innerPage .center .transferWrap form .moneyBox .inputBox .btnBox {
   width: 256px;
   height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5px 1fr 5px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+}
+html body .innerPage .center .transferWrap form .moneyBox .inputBox .btnBox button {
+  width: auto;
+  height: 36px;
+  background: #3D2F6E;
+  border: none;
+  border-radius: 16px 16px 0 0;
+  color: #EDECFF;
+  font-size: 12px;
+  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  padding: 0 20px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button {
-  width: 82px;
-  height: 32px;
-  background: #101010;
-  border: solid 1px #a88335;
-  color: #ffc13c;
-  border-radius: 3px;
+html body .innerPage .center .transferWrap form .moneyBox .inputBox .btnBox button:hover, html body .innerPage .center .transferWrap form .moneyBox .inputBox .btnBox button:active, html body .innerPage .center .transferWrap form .moneyBox .inputBox .btnBox button.active {
+  background: linear-gradient(-120deg, #6140B3 0%, #469FE3 100%);
+  color: #ffffff;
+}
+html body .innerPage .center .transferWrap form .moneyBox .inputBox .btnBox button.check {
+  width: auto;
+  height: 42px;
+  background: -webkit-gradient(linear, left top, right top, from(#52119F), to(#BD51F4));
+  background: linear-gradient(to right, #52119F 0%, #BD51F4 100%);
+  border: none;
+  border-radius: 10px;
+  color: #EDECFF;
   font-size: 14px;
   font-weight: bold;
-  margin: 0 5px 5px 0;
+  padding: 0 15px;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 3;
+  grid-column-end: 4;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button:hover, html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button:active, html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.active {
-  background: #ffc13c;
-  color: #000000;
-  border-color: transparent;
+html body .innerPage .center .transferWrap form .moneyBox .inputBox .btnBox button.check:hover, html body .innerPage .center .transferWrap form .moneyBox .inputBox .btnBox button.check:active, html body .innerPage .center .transferWrap form .moneyBox .inputBox .btnBox button.check.active {
+  background: #BD51F4;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button:nth-of-type(3n) {
-  margin-right: 0;
+html body .innerPage .center .withdrawalWrap {
+  width: 880px;
+  height: auto;
+  margin-right: 15px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.check {
-  width: 256px;
-  height: 42px;
+html body .innerPage .center .withdrawalWrap .top {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(30deg, rgba(23, 18, 41, 0.7490196078) 0%, rgba(46, 35, 87, 0.7490196078) 100%);
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+html body .innerPage .center .withdrawalWrap .top h1 {
+  width: 94%;
+  height: 50px;
+  border-bottom: solid 2px #8A8A8A;
+  color: #6795FF;
+  font-size: 18px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+html body .innerPage .center .withdrawalWrap .top .walletBox {
+  width: 94%;
+  height: auto;
+  border-bottom: solid 1px #8A8A8A;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 24px 1fr 24px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 24px;
+  padding: 16px 0;
+  margin: 0 auto;
+}
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox:last-child::before {
+  display: none;
+}
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 0;
+  width: 1px;
+  height: 60px;
+  background: #8A8A8A;
+}
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox p {
+  width: 100%;
+  height: 28px;
+  color: #BEBEBE;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox p.limit {
+  color: #FFCE0A;
+}
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox p.canUse {
+  color: #94FFBF;
+}
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox p i {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox p button {
+  width: auto;
+  height: 28px;
   background: -webkit-gradient(linear, left top, right top, from(#6140B3), to(#469FE3));
   background: linear-gradient(to right, #6140B3 0%, #469FE3 100%);
   border: none;
@@ -8508,292 +7801,86 @@ html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .input
   font-size: 14px;
   font-weight: bold;
   padding: 0 15px;
-  margin: 15px 0 0 0;
+  margin-left: 10px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.check:hover, html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.check:active, html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.check.active {
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox p button:hover, html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox p button:active, html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox p button.active {
   background: #3894D3;
 }
-html body .innerPage .center .withdrawalWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+html body .innerPage .center .withdrawalWrap .top .walletBox .smallBox .amount {
+  color: #EDECFF;
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 16px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle {
-  width: 880px;
-  margin-right: 15px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top {
-  background: #1f1f1f;
+html body .innerPage .center .withdrawalWrap .top .platformBox {
   width: 100%;
   height: auto;
+  padding: 24px;
+}
+html body .innerPage .center .withdrawalWrap .top .platformBox .platformTitle {
+  color: #6795FF;
+  font-size: 16px;
+  font-weight: bold;
   margin-bottom: 20px;
-  border-radius: 5px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .title {
+html body .innerPage .center .withdrawalWrap .top .platformBox ul {
   width: 100%;
-  height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 22px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-bottom: solid 1px #b5833b;
+  min-height: 367px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  overflow: hidden;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .title div {
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 2px;
-  color: #EDECFF;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 130px;
-  border-bottom: solid 1px #b5833b;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox {
-  width: 33%;
-  height: 100%;
-  padding: 18px 25px 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  position: relative;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox:last-child::before {
-  display: none;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  right: 0;
-  width: 1px;
-  height: 60%;
-  background: #b5833b;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 23px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 17px;
-  letter-spacing: 2px;
-  color: #fb770a;
-  font-weight: bold;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p.limit {
-  color: #e34119;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p.canUse {
-  color: #94FFBF;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p i {
-  display: block;
-  width: 16px;
-  height: 16px;
-  margin-left: 6px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p button {
+html body .innerPage .center .withdrawalWrap .top .platformBox ul li {
   width: auto;
   height: auto;
-  background: #f5951f;
-  border-radius: 5px;
-  border: none;
-  color: #000000;
+  min-height: 105px;
+  background: rgba(0, 0, 0, 0.1490196078);
+  border-radius: 16px;
+  border: solid 1px #A4BFFF;
+  padding: 15px;
+}
+html body .innerPage .center .withdrawalWrap .top .platformBox ul li .title {
+  color: #BEBEBE;
   font-size: 14px;
   font-weight: bold;
-  padding: 3px 5px;
+  margin-bottom: 20px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p button:hover, html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p button:active, html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p button.active {
-  background: #fb770a;
-  color: #ffffff;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .amount {
-  padding: 21px 0 0 10px;
-  font-size: 33px;
+html body .innerPage .center .withdrawalWrap .top .platformBox ul li .amount {
+  color: #EDECFF;
+  font-size: 24px;
   font-weight: bold;
-  color: #ffffff;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox {
+html body .innerPage .center .withdrawalWrap .bottom {
   width: 100%;
   height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 21px 23px 0;
+  background: linear-gradient(30deg, rgba(23, 18, 41, 0.7490196078) 0%, rgba(46, 35, 87, 0.7490196078) 100%);
+  border-radius: 16px;
+  padding: 24px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox .platformTitle {
-  font-size: 17px;
+html body .innerPage .center .withdrawalWrap .bottom .title {
+  color: #6795FF;
+  font-size: 16px;
   font-weight: bold;
-  letter-spacing: 2px;
   margin-bottom: 20px;
-  color: #EDECFF;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul {
+html body .innerPage .center .withdrawalWrap .bottom ul {
   width: 100%;
-  height: 120px;
-  overflow: hidden;
+  height: auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px 10px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul.active {
-  height: auto;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul.three {
-  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
-  grid-template-columns: repeat(3, 1fr);
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul.three li div p {
-  width: auto;
-  overflow: initial;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul.three li div .re_ic {
-  margin-left: 5px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul li {
-  width: auto;
-  height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 5px;
-  padding: 28px 0;
-  background: #272727;
-  border-radius: 5px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul li div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 15px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul li div p {
-  width: 70%;
-  color: #EDECFF;
-  font-size: 16px;
-  font-weight: bold;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-left: 20px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul li div .re_ic {
-  display: block;
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul li p {
-  width: 100%;
-  font-size: 25px;
-  color: #ffffff;
-  font-weight: bold;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-left: 20px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul li p.remind {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #ff0000;
-  font-size: 17px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul li p.remind i {
-  display: block;
-  width: 17px;
-  height: 17px;
-  margin-right: 5px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox .open {
-  width: 100%;
-  height: auto;
-  padding: 23px 0 35px;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox .open.active button i {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox .open button {
-  color: #EDECFF;
-  background: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 13px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox .open button i {
-  display: block;
-  width: 14px;
-  height: 14px;
-  margin-left: 10px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom {
-  background: #1f1f1f;
-  width: 100%;
-  min-height: 630px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 24px;
-  border-radius: 5px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .title {
-  font-size: 17px;
-  letter-spacing: 2px;
-  color: #EDECFF;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom ul {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  gap: 0 10px;
   margin-bottom: 40px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom ul li {
+html body .innerPage .center .withdrawalWrap .bottom ul li {
+  width: auto;
+  height: 120px;
+  background: #171229;
+  border-radius: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8807,54 +7894,50 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom ul li {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: 202px;
-  height: 112px;
-  margin-right: 8px;
-  background: #272727;
-  border-radius: 5px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom ul li .name {
-  font-size: 17px;
-  color: #EDECFF;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom ul li .num span {
-  font-size: 38px;
-  color: #fb770a;
+html body .innerPage .center .withdrawalWrap .bottom ul li .name {
+  color: #BEBEBE;
+  font-size: 16px;
   font-weight: bold;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom ul li .notice {
-  font-size: 15px;
-  letter-spacing: 2px;
-  color: #6795FF;
+html body .innerPage .center .withdrawalWrap .bottom ul li .num {
+  color: #EDECFF;
+  font-size: 42px;
+  font-weight: bold;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form {
+html body .innerPage .center .withdrawalWrap .bottom ul li .notice {
+  color: #FFCE0A;
+  font-size: 12px;
+}
+html body .innerPage .center .withdrawalWrap .bottom form {
   display: none;
+  width: 100%;
+  height: auto;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form.display {
+html body .innerPage .center .withdrawalWrap .bottom form.display {
   display: block;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row {
+html body .innerPage .center .withdrawalWrap .bottom form .row {
+  width: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row p {
-  width: 80px;
+html body .innerPage .center .withdrawalWrap .bottom form .row p {
+  width: 100px;
+  color: #EDECFF;
   font-size: 14px;
-  letter-spacing: 1px;
-  color: #fb770a;
   font-weight: bold;
   margin-top: 13px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row p i {
-  font-size: 12px;
+html body .innerPage .center .withdrawalWrap .bottom form .row p em {
   color: #ff0000;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div select {
+html body .innerPage .center .withdrawalWrap .bottom form .row div select {
   width: 287px;
-  height: 40px;
-  margin-left: 26px;
+  height: 42px;
   background: #483F6E;
   border-radius: 12px;
   border: none;
@@ -8867,14 +7950,13 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row
   background-repeat: no-repeat;
   padding-left: 15px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div select option {
+html body .innerPage .center .withdrawalWrap .bottom form .row div select option {
   background: #2B2446;
   color: #EDECFF;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div input {
+html body .innerPage .center .withdrawalWrap .bottom form .row div input {
   width: 287px;
-  height: 40px;
-  margin-left: 26px;
+  height: 42px;
   background: #483F6E;
   border-radius: 12px;
   border: none;
@@ -8883,82 +7965,76 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row
   font-weight: bold;
   padding-left: 15px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div input::-webkit-input-placeholder {
+html body .innerPage .center .withdrawalWrap .bottom form .row div input::-webkit-input-placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div input::-moz-placeholder {
+html body .innerPage .center .withdrawalWrap .bottom form .row div input::-moz-placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div input:-ms-input-placeholder {
+html body .innerPage .center .withdrawalWrap .bottom form .row div input:-ms-input-placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div input::-ms-input-placeholder {
+html body .innerPage .center .withdrawalWrap .bottom form .row div input::-ms-input-placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div input::placeholder {
+html body .innerPage .center .withdrawalWrap .bottom form .row div input::placeholder {
   color: #EDECFF;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div input:focus {
+html body .innerPage .center .withdrawalWrap .bottom form .row div input:focus {
   outline: solid 2px #ff0000;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div .remind {
-  margin: 8px 0 0 26px;
-  font-size: 12px;
-  letter-spacing: 1px;
+html body .innerPage .center .withdrawalWrap .bottom form .row div .remind {
   color: #94FFBF;
+  font-size: 12px;
+  margin-top: 10px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div .remind.sp {
+html body .innerPage .center .withdrawalWrap .bottom form .row div .remind.sp {
   color: #ff0000;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form button {
+html body .innerPage .center .withdrawalWrap .bottom form button {
   width: 287px;
   height: 40px;
-  margin-left: 106px;
-  background: -webkit-gradient(linear, left top, right top, from(#6140B3), to(#469FE3));
-  background: linear-gradient(to right, #6140B3 0%, #469FE3 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#52119F), to(#BD51F4));
+  background: linear-gradient(to right, #52119F 0%, #BD51F4 100%);
   border: none;
   border-radius: 10px;
   color: #EDECFF;
   font-size: 14px;
   font-weight: bold;
   padding: 0 15px;
+  margin-left: 100px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form button:hover, html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form button:active, html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form button.active {
-  background: #3894D3;
+html body .innerPage .center .withdrawalWrap .bottom form button:hover, html body .innerPage .center .withdrawalWrap .bottom form button:active, html body .innerPage .center .withdrawalWrap .bottom form button.active {
+  background: #BD51F4;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .remindBox {
+html body .innerPage .center .withdrawalWrap .bottom .remindBox {
   width: 100%;
   height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 15px;
-  margin-top: 24px;
-  border: solid 1px #b5833b;
-  background: #1f1f1f;
+  border: solid 1px #EDECFF;
+  border-radius: 16px;
+  padding: 16px;
+  margin-top: 50px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .remindBox .remindTitle {
-  font-size: 13px;
-  letter-spacing: 1px;
-  color: #EDECFF;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .remindBox div {
-  margin-bottom: 5px;
-  font-size: 13px;
-  letter-spacing: 1px;
+html body .innerPage .center .withdrawalWrap .bottom .remindBox .remindTitle {
   color: #6795FF;
+  font-size: 16px;
   font-weight: bold;
+  margin: 30px 0 10px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .remindBox div.mar {
+html body .innerPage .center .withdrawalWrap .bottom .remindBox .remindTitle:first-child {
+  margin-top: 0;
+}
+html body .innerPage .center .withdrawalWrap .bottom .remindBox p:not(.remindTitle) {
+  color: #EDECFF;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+}
+html body .innerPage .center .withdrawalWrap .bottom .remindBox p:not(.remindTitle).mar {
   margin-bottom: 20px;
 }
-html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .remindBox p {
+html body .innerPage .center .withdrawalWrap .bottom .remindBox p:not(.remindTitle).ps {
   color: #94FFBF;
-  font-size: 13px;
-  letter-spacing: 1px;
-  line-height: 18px;
-  font-weight: bold;
 }
 html body .helpPage {
   width: 100%;
@@ -9459,602 +8535,6 @@ html body .registerWrap .bigBox .inputBox .btnBox button {
 }
 html body .registerWrap .bigBox .inputBox .btnBox button:hover, html body .registerWrap .bigBox .inputBox .btnBox button:active, html body .registerWrap .bigBox .inputBox .btnBox button.active {
   background: #BD51F4;
-}
-html body .agentPage .topBanner {
-  width: 100%;
-  height: 0;
-  padding-top: 26%;
-  margin-top: -50px;
-}
-html body .agentPage .center {
-  width: 1400px;
-  height: auto;
-  margin: 0 auto;
-}
-html body .agentPage .center .client {
-  width: 1400px;
-  height: auto;
-  padding: 65px 0;
-}
-html body .agentPage .center .client .title {
-  color: #EDECFF;
-  font-size: 36px;
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 38px;
-  position: relative;
-}
-html body .agentPage .center .client .title::before {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  left: 490px;
-  background-position-x: 0%;
-}
-html body .agentPage .center .client .title::after {
-  content: "";
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  right: 490px;
-  background-position-x: 100%;
-}
-html body .agentPage .center .client .subTitle {
-  font-size: 16px;
-  font-weight: bolder;
-  color: #fb770a;
-  line-height: 30px;
-  text-align: center;
-}
-html body .agentPage .center .client .block {
-  width: 100%;
-  height: 839px;
-  margin: 53px 0 60px;
-}
-html body .agentPage .center .client .block .line {
-  width: 100%;
-  height: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 20px;
-}
-html body .agentPage .center .client .block .line .long {
-  width: 868px;
-  height: auto;
-  padding: 43px 30px;
-  background: #1f1f1f;
-  border-radius: 10px;
-}
-html body .agentPage .center .client .block .line .long .top {
-  width: 100%;
-  height: 148px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  position: relative;
-}
-html body .agentPage .center .client .block .line .long .top .main {
-  font-size: 35px;
-  color: #ffffff;
-  font-weight: bloder;
-  text-align: center;
-}
-html body .agentPage .center .client .block .line .long .top .sub {
-  font-size: 18px;
-  color: #999999;
-  font-weight: bold;
-  text-align: center;
-}
-html body .agentPage .center .client .block .line .long .top .icon_1 {
-  width: 121px;
-  height: 107px;
-}
-html body .agentPage .center .client .block .line .long .top div .main {
-  margin: 26px auto;
-}
-html body .agentPage .center .client .block .line .long .top::after {
-  content: " ";
-  background: #b5833b;
-  width: 100%;
-  height: 1px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-html body .agentPage .center .client .block .line .long .down {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-html body .agentPage .center .client .block .line .long .down .item {
-  width: 286px;
-  height: 182px;
-  position: relative;
-}
-html body .agentPage .center .client .block .line .long .down .item .num {
-  color: #EDECFF;
-  font-size: 50px;
-  font-weight: bolder;
-  text-align: center;
-  margin-top: 50px;
-}
-html body .agentPage .center .client .block .line .long .down .item .info {
-  color: #6795FF;
-  font-size: 20px;
-  line-height: 35px;
-  text-align: center;
-  margin-top: 20px;
-}
-html body .agentPage .center .client .block .line .long .down .item::after {
-  content: "";
-  width: 1px;
-  height: 165px;
-  background: #b5833b;
-  position: absolute;
-  top: 34px;
-  right: 0;
-}
-html body .agentPage .center .client .block .line .long .down .item:last-child::after {
-  display: none;
-}
-html body .agentPage .center .client .block .line .box {
-  width: 394px;
-  height: auto;
-  background: #1f1f1f;
-  border-radius: 10px;
-  padding: 50px 30px;
-  position: relative;
-}
-html body .agentPage .center .client .block .line .box .main {
-  font-size: 35px;
-  color: #ffffff;
-  font-weight: bloder;
-  text-align: center;
-  margin-top: 185px;
-}
-html body .agentPage .center .client .block .line .box .sub {
-  font-size: 18px;
-  color: #999999;
-  font-weight: bold;
-  line-height: 30px;
-  text-align: center;
-  margin-top: 30px;
-}
-html body .agentPage .center .client .block .line .box i {
-  width: 121px;
-  height: 121px;
-  position: absolute;
-  top: 54px;
-  left: 168px;
-}
-html body .agentPage .center .rulePic {
-  width: 1400px;
-  height: 617px;
-  margin-top: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-}
-html body .agentPage .commission {
-  width: 100%;
-  height: auto;
-  background: #1f1f1f;
-  padding: 97px 0;
-  position: relative;
-}
-html body .agentPage .commission .title {
-  color: #EDECFF;
-  font-size: 36px;
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 38px;
-  position: relative;
-}
-html body .agentPage .commission .title::before {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  left: 503px;
-  background-position-x: 0%;
-}
-html body .agentPage .commission .title::after {
-  content: "";
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  right: 503px;
-  background-position-x: 100%;
-}
-html body .agentPage .commission .subTitle {
-  font-size: 16px;
-  font-weight: bolder;
-  color: #fb770a;
-  line-height: 30px;
-  text-align: center;
-}
-html body .agOther {
-  width: 100%;
-  height: auto;
-}
-html body .agOther .topBanner {
-  width: 100%;
-  height: 0;
-  padding-top: 26%;
-  margin-top: -50px;
-}
-html body .agOther .center {
-  width: 1400px;
-  min-width: 1400px;
-  height: auto;
-  margin: 0 auto;
-  padding: 0 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-html body .agOther .center .agRule {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-html body .agOther .center .agRule .leftArea {
-  width: 25%;
-  height: center;
-  position: relative;
-}
-html body .agOther .center .agRule .leftArea ul {
-  display: table;
-  border-radius: 3px;
-  padding-left: 35px;
-  margin: 130px 0 0 13px;
-  position: relative;
-}
-html body .agOther .center .agRule .leftArea ul li {
-  width: auto;
-  height: 70px;
-  color: #999999;
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-  cursor: pointer;
-}
-html body .agOther .center .agRule .leftArea ul li:hover, html body .agOther .center .agRule .leftArea ul li:active, html body .agOther .center .agRule .leftArea ul li.active {
-  color: #EDECFF;
-}
-html body .agOther .center .agRule .leftArea ul li:hover::before, html body .agOther .center .agRule .leftArea ul li:active::before, html body .agOther .center .agRule .leftArea ul li.active::before {
-  content: "";
-  width: 53px;
-  height: 53px;
-  border-radius: 40px;
-  position: absolute;
-  top: -11px;
-  left: -66px;
-}
-html body .agOther .center .agRule .leftArea ul ::before {
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-radius: 40px;
-  position: absolute;
-  top: -1px;
-  left: -52px;
-}
-html body .agOther .center .agRule .leftArea ul ::after {
-  content: " ";
-  width: 40px;
-  height: 40px;
-  background-position-x: 50%;
-  position: absolute;
-  top: -4px;
-  left: -58px;
-}
-html body .agOther .center .agRule .rightArea {
-  width: 75%;
-  height: auto;
-  padding: 44px 0 80px;
-}
-html body .agOther .center .agRule .rightArea .title {
-  color: #EDECFF;
-  font-size: 36px;
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 38px;
-  position: relative;
-}
-html body .agOther .center .agRule .rightArea .title::before {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  left: 594px;
-  background-position-x: 0%;
-}
-html body .agOther .center .agRule .rightArea .title::after {
-  content: "";
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  right: 594px;
-  background-position-x: 100%;
-}
-html body .agOther .center .agRule .rightArea .outter {
-  width: 90%;
-  max-height: 734px;
-  background: #1f1f1f;
-  border-radius: 10px;
-  padding: 36px 29px;
-  overflow: auto;
-}
-html body .agOther .center .agRule .rightArea .outter::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-html body .agOther .center .agRule .rightArea .outter::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border-radius: 10px;
-}
-html body .agOther .center .agRule .rightArea .outter::-webkit-scrollbar-track {
-  background: #ffffff;
-  border-radius: 10px;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .subTitle {
-  color: #EDECFF;
-  font-size: 25px;
-  font-weight: bolder;
-  margin-bottom: 25px;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .info {
-  color: #999999;
-  font-size: 20px;
-  line-height: 40px;
-  font-weight: bold;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .info .chapter {
-  color: #ffffff;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .info .keyword {
-  color: #ff4719;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .chapterBox {
-  width: 98%;
-  height: auto;
-  margin: 5px 20px;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .chapterBox .infoChapter {
-  color: #999999;
-  font-size: 20px;
-  line-height: 40px;
-  font-weight: bold;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .chapterBox .infoChapter .chapter {
-  color: #ffffff;
-}
-html body .agOther .center .agQA {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-html body .agOther .center .agQA .leftArea {
-  width: 25%;
-  height: center;
-  position: relative;
-}
-html body .agOther .center .agQA .leftArea ul {
-  display: table;
-  border-radius: 3px;
-  padding-left: 35px;
-  margin: 130px 0 0 86px;
-  position: relative;
-}
-html body .agOther .center .agQA .leftArea ul li {
-  width: auto;
-  height: 70px;
-  color: #999999;
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-  cursor: pointer;
-}
-html body .agOther .center .agQA .leftArea ul li:hover, html body .agOther .center .agQA .leftArea ul li:active, html body .agOther .center .agQA .leftArea ul li.active {
-  color: #EDECFF;
-}
-html body .agOther .center .agQA .leftArea ul li:hover::before, html body .agOther .center .agQA .leftArea ul li:active::before, html body .agOther .center .agQA .leftArea ul li.active::before {
-  width: 53px;
-  height: 53px;
-  top: -11px;
-  left: -66px;
-}
-html body .agOther .center .agQA .leftArea ul ::before {
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-radius: 40px;
-  position: absolute;
-  top: -1px;
-  left: -52px;
-}
-html body .agOther .center .agQA .leftArea ul ::after {
-  content: " ";
-  width: 40px;
-  height: 40px;
-  background-position-x: 50%;
-  position: absolute;
-  top: -4px;
-  left: -58px;
-}
-html body .agOther .center .agQA .rightArea {
-  width: 75%;
-  height: auto;
-  padding: 44px 0 80px;
-}
-html body .agOther .center .agQA .rightArea .title {
-  color: #EDECFF;
-  font-size: 36px;
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 38px;
-  position: relative;
-}
-html body .agOther .center .agQA .rightArea .title::before {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  left: 616px;
-  background-position-x: 0%;
-}
-html body .agOther .center .agQA .rightArea .title::after {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  right: 616px;
-  background-position-x: 100%;
-}
-html body .agOther .center .agQA .rightArea .outter {
-  width: 90%;
-  max-height: 734px;
-  background: #1f1f1f;
-  border-radius: 10px;
-  padding: 36px 29px;
-  overflow-y: auto;
-}
-html body .agOther .center .agQA .rightArea .outter::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-html body .agOther .center .agQA .rightArea .outter::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border-radius: 10px;
-}
-html body .agOther .center .agQA .rightArea .outter::-webkit-scrollbar-track {
-  background: #ffffff;
-  border-radius: 10px;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock {
-  width: 100%;
-  height: auto;
-  margin-top: 177px;
-  position: relative;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock:first-child {
-  margin-top: 0;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .tiTle {
-  color: #EDECFF;
-  font-size: 25px;
-  font-weight: bolder;
-  margin-bottom: 25px;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox {
-  margin-bottom: 47px;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox .subTitle {
-  color: #EDECFF;
-  font-size: 20px;
-  font-weight: bolder;
-  line-height: 40px;
-  margin-bottom: 10px;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox .info {
-  color: #999999;
-  font-size: 20px;
-  line-height: 40px;
-  font-weight: bold;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox .info .chapter {
-  color: #ffffff;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox .info .keyword {
-  color: #ff4719;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .line {
-  width: 100%;
-  height: 1px;
-  background: #b5833b;
-  position: absolute;
-  bottom: -78px;
-  left: 0;
-}
-html body .agOther .center .agPersonal {
-  width: 100%;
-  height: auto;
-  padding: 66px 0 114px;
-  position: relative;
-}
-html body .agOther .center .agPersonal .title {
-  color: #EDECFF;
-  font-size: 36px;
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 38px;
-  position: relative;
-}
-html body .agOther .center .agPersonal .title::before {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  left: 432px;
-  background-position-x: 0%;
-}
-html body .agOther .center .agPersonal .title::after {
-  content: "";
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  right: 432px;
-  background-position-x: 100%;
-}
-html body .agOther .center .agPersonal .contentBlock {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-html body .agOther .center .agPersonal .contentBlock .subTitle {
-  color: #EDECFF;
-  font-size: 25px;
-  font-weight: bolder;
-  margin-bottom: 25px;
-}
-html body .agOther .center .agPersonal .contentBlock .info {
-  color: #6795FF;
-  font-size: 20px;
-  line-height: 40px;
-  font-weight: bold;
 }
 html body .bg {
   width: 100%;

@@ -533,6 +533,25 @@ $(function(){
         $(".filter,.jumpWindow.plsGo")
         .addClass("display");
     })
+
+
+    // $(".agentSignup").click(function(){
+    //     $('.jumpWindow').removeClass('display');
+    //     $('.filter,.agRegist').addClass('display');
+    // })
+    //同意條款checkbox
+    // $(".agRegist .btnBox .readBtn").click(function(){
+    //     $(this).toggleClass('active');
+    // })
+    // $(".agRegist .btnBox .openAGterms").click(function(){
+    //     $('.agTerms').addClass('display');
+    //     $(".agRegist").addClass("darkness");
+    // })
+    // $(".closeTerms,.close_ic.back").click(function(){
+    //     $(".filter").addClass("display");
+    //     $('.agTerms').removeClass('display');
+    //     $(".agRegist").removeClass("darkness");
+    // })
 })
 
 //helpPage
@@ -627,233 +646,100 @@ $(function(){
     })
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//filter open + close
-$(function(){
-    
-
-    // $(".agentSignup").click(function(){
-    //     $('.jumpWindow').removeClass('display');
-    //     $('.filter,.agRegist').addClass('display');
-    // })
-    //同意條款checkbox
-    // $(".agRegist .btnBox .readBtn").click(function(){
-    //     $(this).toggleClass('active');
-    // })
-    // $(".agRegist .btnBox .openAGterms").click(function(){
-    //     $('.agTerms').addClass('display');
-    //     $(".agRegist").addClass("darkness");
-    // })
-    // $(".closeTerms,.close_ic.back").click(function(){
-    //     $(".filter").addClass("display");
-    //     $('.agTerms').removeClass('display');
-    //     $(".agRegist").removeClass("darkness");
-    // })
-})
-
-
-
-function openLiveGame(){
-    $('.jumpWindow').removeClass('display');
-    $('.filter,.betWindow.liveGame').addClass('display');
-}
-
-
-
-function openNews(){
-    $('.jumpWindow').removeClass('display');
-    $('.filter,.news').addClass('display');
-}
-function loading(){
-    $('.jumpWindow').removeClass('display');
-    $('.filter,.loading').addClass('display');
-
-    setTimeout(function(){
-        $(".filter")
-        .removeClass("display");
-    },2000);
-}
-function openAGterms(){
-    $('.jumpWindow').removeClass('display');
-    $('.filter,.agTerms').addClass('display');
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//withdrawal+transfer 展開
-$(function(){
-    $('.withdrawalWrap .platformBox .open button').click(function(){
-        $($(this).closest('div').prev('ul')).toggleClass('active');
-        $(this).closest(".open")
-        .toggleClass("active");
-    })
-    $('.transferWrap .platform .open button').click(function(){
-        $($(this).closest('div').prev('ul')).toggleClass('active');
-        $(this).closest(".open")
-        .toggleClass("active");
-    })
-})
-
-
-
 //goTop
-$(function(){
-	$(window).scroll(function () {
-        var scrollVal = $(this).scrollTop();
-        if(scrollVal > 0){
-                $(".goTop")
-                .addClass("display")
-        } else{
-                $(".goTop")
-                .removeClass("display");
-        };
-	})
+// $(function(){
+// 	$(window).scroll(function () {
+//         var scrollVal = $(this).scrollTop();
+//         if(scrollVal > 0){
+//                 $(".goTop")
+//                 .addClass("display")
+//         } else{
+//                 $(".goTop")
+//                 .removeClass("display");
+//         };
+// 	})
 
-    $(".goTop").click(function(){
-        var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body'); //各瀏覽器相容性
-        $body.delay('0').animate({
-                scrollTop: 0
-        },500)
-    })
-})
-
-//transfer切換
-$(function(){
-    $(".withdrawalWrap .bottom form select").change(function(){
-        var n = $(".withdrawalWrap .bottom form select").val();
-
-        if(n == 1) {
-            $(".withdrawalWrap .bottom form.bankcard")
-            .addClass("display")
-            .siblings().removeClass("display");
-        }
-    })
-})
-
-
-
+//     $(".goTop").click(function(){
+//         var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body'); //各瀏覽器相容性
+//         $body.delay('0').animate({
+//                 scrollTop: 0
+//         },500)
+//     })
+// })
 
 //退傭代理QA-leftArea
-$(function(){
-	$(".qaOutter").scroll(function () {
-        var scrollVal = $(this).scrollTop();
-        if(scrollVal < 200){
-            $(".leftArea li:eq(0)")
-            .addClass("active")
-            .siblings().removeClass("active");
-        } else if(scrollVal >= 900){
-            $(".leftArea li:eq(2)")
-            .addClass("active")
-            .siblings().removeClass("active");
-        } else if(scrollVal >= 200){
-            $(".leftArea li:eq(1)")
-            .addClass("active")
-            .siblings().removeClass("active");
-        }
-	})
-})
+// $(function(){
+// 	$(".qaOutter").scroll(function () {
+//         var scrollVal = $(this).scrollTop();
+//         if(scrollVal < 200){
+//             $(".leftArea li:eq(0)")
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         } else if(scrollVal >= 900){
+//             $(".leftArea li:eq(2)")
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         } else if(scrollVal >= 200){
+//             $(".leftArea li:eq(1)")
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }
+// 	})
+// })
 //退傭代理Rule-leftArea
-$(function(){
-	$(".ruleOutter").scroll(function () {
-        var scrollVal = $(this).scrollTop();
-        if(scrollVal < 100){
-            $(".leftArea li:nth-of-type(1)") 
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 6000){
-            $(".leftArea li:nth-of-type(11)") 
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 5600){
-            $(".leftArea li:nth-of-type(10)") 
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 5500){
-            $(".leftArea li:nth-of-type(9)") 
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 5400){
-            $(".leftArea li:nth-of-type(9)") 
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 5300){
-            $(".leftArea li:nth-of-type(8)") 
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 4600){
-            $(".leftArea li:nth-of-type(7)")
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 3400){
-            $(".leftArea li:nth-of-type(6)")
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 2200){
-            $(".leftArea li:nth-of-type(5)")
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 1300){
-            $(".leftArea li:nth-of-type(4)")
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 800){
-            $(".leftArea li:nth-of-type(3)")
-            .addClass("active")
-            .siblings().removeClass("active");
-        }else if(scrollVal >= 100){
-            $(".leftArea li:nth-of-type(2)")
-            .addClass("active")
-            .siblings().removeClass("active");
-        }
+// $(function(){
+// 	$(".ruleOutter").scroll(function () {
+//         var scrollVal = $(this).scrollTop();
+//         if(scrollVal < 100){
+//             $(".leftArea li:nth-of-type(1)") 
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 6000){
+//             $(".leftArea li:nth-of-type(11)") 
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 5600){
+//             $(".leftArea li:nth-of-type(10)") 
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 5500){
+//             $(".leftArea li:nth-of-type(9)") 
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 5400){
+//             $(".leftArea li:nth-of-type(9)") 
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 5300){
+//             $(".leftArea li:nth-of-type(8)") 
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 4600){
+//             $(".leftArea li:nth-of-type(7)")
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 3400){
+//             $(".leftArea li:nth-of-type(6)")
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 2200){
+//             $(".leftArea li:nth-of-type(5)")
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 1300){
+//             $(".leftArea li:nth-of-type(4)")
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 800){
+//             $(".leftArea li:nth-of-type(3)")
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }else if(scrollVal >= 100){
+//             $(".leftArea li:nth-of-type(2)")
+//             .addClass("active")
+//             .siblings().removeClass("active");
+//         }
 
-        console.log(scrollVal);
-	})
-})
-
-//sendBtn
-$(function(){
-    $(".sendBtn").on("click",function(){
-        $(".jumpWindow")
-        .removeClass("display");
-
-        $(".filter,.plsGo")
-        .addClass("display");
-    })
-})
+//         console.log(scrollVal);
+// 	})
+// })

@@ -1233,11 +1233,11 @@
                 }
     
                 .detailCardBox {
+                    width: 100%;
+                    height: auto;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    width: 100%;
-                    height: auto;
     
                     i {
                         width: 9px;
@@ -1255,17 +1255,19 @@
                     }
     
                     .wrap {
-                        overflow: hidden;
                         width: 100%;
                         height: auto;
+                        overflow: hidden;
     
                         ul {
+                            width: auto;
+                            height: auto;
                             display: flex;
-                            width: 1740px;
-                            height: 152px;
                             transition: all 0.6s ease;
     
                             li {
+                                width: auto;
+                                height: auto;
                                 margin-right: 20px;
     
                                 &:last-child {
@@ -1274,22 +1276,21 @@
     
                                 .cardBg {
                                     width: 280px;
-                                    height: 152px;
-                                    box-sizing: border-box;
+                                    height: 154px;
                                     padding: 0 10px;
-                                    border-radius: 15px;
     
                                     .title {
-                                        @include cardWord;
-                                        font-size: 22px;
-                                        font-style: italic;
                                         width: 100%;
                                         height: 86px;
-                                        box-sizing: border-box;
-                                        padding-left: 15px;
+                                        color: $mainFont_1;
+                                        font-size: 22px;
+                                        font-weight: bold;
+                                        text-shadow: 2px 3px 0 $card_textShadow;
+                                        font-style: italic;
                                         display: flex;
                                         align-items: center;
                                         justify-content: center;
+                                        padding-left: 15px;
     
                                         &.sp {
                                             padding-left: 60px;
@@ -1310,7 +1311,11 @@
                                             p {
                                                 width: 100%;
                                                 height: auto;
-                                                @include cardWord;
+                                                color: $mainFont_1;
+                                                font-size: 12px;
+                                                font-weight: bold;
+                                                text-shadow: 2px 3px 0 $card_textShadow;
+                                                text-align: center;
     
                                                 &.text {
                                                     margin-bottom: 12px;
@@ -3881,334 +3886,206 @@
                 }
             }
         }
-
-
-
         
         //transfer
         .transferWrap {
-            display: flex;
+            width: 880px;
+            height: auto;
+            background: $mainBG_1;
+            border-radius: 16px;
+            margin-right: 15px;
 
-            .transferMiddle {
-                width: 880px;
+            h1 {
+                width: 94%;
+                height: 50px;
+                border-bottom: solid 2px $mainBorder_1;
+                color: $subFont_2;
+                font-size: 18px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                padding: 0 5px;
+                margin: 0 auto;
+            }
+
+            .wallet {
+                width: 94%;
                 height: auto;
-                margin-right: 15px;
-                background: $secondBG;
-                border-radius: 5px;
+                border-bottom: solid 1px $mainBorder_1;
+                padding: 16px 0;
+                margin: 0 auto;
 
-                .title {
+                .walletTitle {
                     width: 100%;
-                    height: 50px;
-                    box-sizing: border-box;
-                    padding: 0 22px;
+                    height: auto;
                     display: flex;
                     align-items: center;
-                    border-bottom: solid 1px $Border;
 
-                    div {
-                        color: $mainFont_1;
-                        font-size: 20px;
-                        letter-spacing: 2px;
+                    p {
+                        color: $mainFont_2;
+                        font-size: 16px;
                         font-weight: bold;
+                        display: flex;
+                        align-items: center;
+
+                        .reset_ic {
+                            width: 16px;
+                            height: 16px;
+                            margin-left: 10px;
+                        }
+                    }
+
+                    button {
+                        width: auto;
+                        height: 28px;
+                        @include mainBtn;
+                        margin-left: 10px;
                     }
                 }
 
-                .wallet {
+                .amount {
+                    color: $mainFont_1;
+                    font-size: 42px;
+                    font-weight: bold;
+                    margin-top: 16px;
+                }
+            }
+
+            .platform {
+                width: 100%;
+                height: auto;
+                border-bottom: solid 1px $mainBorder_2;
+                padding: 24px;
+                
+                .platformTitle {
+                    color: $subFont_2;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+
+                ul {
                     width: 100%;
-                    height: 130px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    border-bottom: solid 1px $Border;
+                    min-height: 367px;
+                    display: grid;
+                    grid-template-columns: repeat(5,1fr);
+                    gap: 10px;
+                    overflow: hidden;
 
-                    .centerWallet {
-                        width: 49%;
-                        height: 100%;
-                        padding: 18px 25px 0;
-                        box-sizing: border-box;
+                    li {
+                        width: auto;
+                        height: auto;
+                        min-height: 105px;
+                        @include smallWalletBox;
 
-                        .walletTitle {
-                            display: flex;
-                            align-items: center;
-                            justify-content: space-between;
-
-                            p {
-                                display: flex;
-                                align-items: center;
-                                font-size: 17px;
-                                letter-spacing: 2px;
-                                color: $mainFont_3;
-                                font-weight: bold;
-
-                                .reset_ic {
-                                    display: block;
-                                    width: 16px;
-                                    height: 16px;
-                                    margin-left: 6px;
-                                }
-                            }
-
-                            button {
-                                width: auto;
-                                height: auto;
-                                @include eventBtn;
-                                padding: 3px 5px;
-                            }
+                        .title {
+                            color: $mainFont_2;
+                            font-size: 14px;
+                            font-weight: bold;
+                            margin-bottom: 20px;
                         }
 
                         .amount {
-                            width: 100%;
-                            height: auto;
-                            box-sizing: border-box;
-                            padding: 13px 0 0 10px;
-                            font-size: 43px;
+                            color: $mainFont_1;
+                            font-size: 24px;
                             font-weight: bold;
-                            color: $money;
                         }
                     }
                 }
+            }
 
-                .platform {
-                    width: 100%;
-                    height: auto;
-                    box-sizing: border-box;
-                    padding: 21px 23px 0;
-                    border-bottom: solid 1px $Border;
-                    
-                    .platformTitle {
-                        font-size: 17px;
-                        font-weight: bold;
-                        letter-spacing: 2px;
-                        margin-bottom: 20px;
-                        color: $mainFont_1;
-                    }
+            form {
+                width: 100%;
+                height: auto;
+                padding: 24px;
 
-                    ul {
-                        width: 100%;
-                        height: 120px;
-                        overflow: hidden;
-                        display: grid;
-                        grid-template-columns: repeat(4,1fr);
-                        grid-gap: 10px 10px;
-                        
-                        &.active {
-                            height: auto;
-                        }
+                .formTitle {
+                    color: $subFont_2;
+                    font-size: 16px;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: flex-end;
+                    margin-bottom: 20px;
 
-                        &.three {
-                            grid-template-columns: repeat(3,1fr);
-
-                            li {
-
-                                div {
-
-                                    p {
-                                        width: auto;
-                                        overflow: initial;
-                                    }
-
-                                    .re_ic {
-                                        margin-left: 5px;
-                                    }
-                                }
-                            }
-                        }
-
-                        li {
-                            width: auto;
-                            height: auto;
-                            box-sizing: border-box;
-                            border-radius: 5px;
-                            padding: 28px 0;
-                            background: $fakeTable_BG;
-                            border-radius: 5px;
-
-                            div {
-                                display: flex;
-                                align-items: center;
-                                margin-bottom: 15px;
-
-                                p {
-                                    width: 70%;
-                                    color: $mainFont_1;
-                                    font-size: 16px;
-                                    font-weight: bold;
-                                    overflow: hidden;
-                                    text-overflow: ellipsis;
-                                    white-space: nowrap;
-                                    box-sizing: border-box;
-                                    padding-left: 20px;
-                                }
-
-                                .re_ic {
-                                    display: block;
-                                    width: 16px;
-                                    height: 16px;
-                                    cursor: pointer;
-                                }
-                            }
-
-                            p {
-                                width: 100%;
-                                font-size: 25px;
-                                color: $money;
-                                font-weight: bold;
-                                box-sizing: border-box;
-                                padding-left: 20px;
-
-                                &.remind {
-                                    display: flex;
-                                    align-items: center;
-                                    color: $remind_2;
-                                    font-size: 17px;
-
-                                    i {
-                                        display: block;
-                                        width: 17px;
-                                        height: 17px;
-                                        margin-right: 5px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    .open {
-                        width: 100%;
-                        height: auto;
-                        padding: 23px 0 35px;
-                        text-align: center;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-
-                        &.active {
-
-                            button {
-
-                                i {
-                                    transform: rotate(180deg);
-                                }
-                            }
-                        }
-
-                        button {
-                            color: $time;
-                            background: none;
-                            display: flex;
-                            align-items: center;
-                            font-size: 13px;
-
-                            i {
-                                display: block;
-                                width: 14px;
-                                height: 14px;
-                                margin-left: 10px;
-                                transition: 0.3s all;
-                            }
-                        }
+                    .remind {
+                        color: $subFont_3;
+                        font-size: 12px;
+                        margin-left: 25px;
                     }
                 }
 
-                form {
-                    width: 100%;
+                .platformBox {
+                    width: 690px;
                     height: auto;
-                    box-sizing: border-box;
-                    padding: 25px 0 36px 27px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
 
-                    .formTitle {
-                        display: flex;
-                        align-items: flex-end;
-                        margin-bottom: 25px;
-                        font-size: 17px;
-                        letter-spacing: 2px;
+                    p {
+                        width: 100px;
                         color: $mainFont_1;
+                        font-size: 14px;
                         font-weight: bold;
-
-                        .remind {
-                            margin-left: 25px;
-                            font-size: 14px;
-                            letter-spacing: 1px;
-                            color: $remind_1;
-                        }
                     }
 
-                    .platformBox {
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        width: 690px;
-                        height: auto;
-                        margin-bottom: 20px;
-
-                        p {
-                            width: 100px;
-                            font-size: 14px;
-                            color: $mainFont_3;
-                            font-weight: bold;
-                        }
-
-                        .trans_ic {
-                            display: block;
-                            width: 27px;
-                            height: 23px;
-                        }
-
-                        select {
-                            width: 256px;
-                            height: 42px;
-                            @include mainSelect;
-                        }
+                    .trans_ic {
+                        width: 27px;
+                        height: 23px;
                     }
 
-                    .moneyBox {
+                    select {
+                        width: 256px;
+                        height: 42px;
+                        @include mainSelect;
+                    }
+                }
+
+                .moneyBox {
+                    width: auto;
+                    height: auto;
+                    display: flex;
+
+                    p {
+                        width: 100px;
+                        color: $mainFont_1;
+                        font-size: 14px;
+                        font-weight: bold;
+                        margin-top: 14px;
+                    }
+
+                    .inputBox {
                         width: auto;
                         height: auto;
-                        display: flex;
-                        align-items: flex-start;
+                        margin-left: 17px;
 
-                        p {
-                            width: 100px;
-                            font-size: 14px;
-                            font-weight: bold;
-                            color: $mainFont_3;
-                            margin-top: 14px;
+                        input {
+                            width: 256px;
+                            height: 42px;
+                            @include mainInput;
                         }
 
-                        .inputBox {
-                            width: auto;
+                        .btnBox {
+                            width: 256px;
                             height: auto;
-                            margin-left: 17px;
+                            display: grid;
+                            grid-template-columns: repeat(3,1fr);
+                            gap: 5px;
+                            margin-top: 20px;
 
-                            input {
-                                width: 256px;
-                                height: 42px;
-                                @include mainInput;
-                            }
+                            button {
+                                width: auto;
+                                height: 36px;
+                                @include thirdBtn;
+                                border-radius: 10px;
+                                justify-content: center;
 
-                            .btnBox {
-                                width: 256px;
-                                height: auto;
-                                display: flex;
-                                flex-wrap: wrap;
-                                margin-top: 20px;
-
-                                button {
-                                    width: 82px;
-                                    height: 32px;
-                                    @include fastBtn;
-                                    margin: 0 5px 5px 0;
-
-                                    &:nth-of-type(3n) {
-                                        margin-right: 0;
-                                    }
-
-                                    &.check {
-                                        width: 256px;
-                                        height: 42px;
-                                        @include mainBtn;
-                                        margin: 15px 0 0 0;
-                                    }
+                                &.check {
+                                    width: auto;
+                                    height: 42px;
+                                    @include secondBtn;
+                                    grid-column-start: 1;
+                                    grid-column-end: 4;
                                 }
                             }
                         }
@@ -4219,406 +4096,288 @@
 
         //withdrawal
         .withdrawalWrap {
-            display: flex;
+            width: 880px;
+            height: auto;
+            margin-right: 15px;
 
-            .withdrawalMiddle {
-                width: 880px;
-                margin-right: 15px;
+            .top {
+                width: 100%;
+                height: auto;
+                background: $mainBG_1;
+                border-radius: 16px;
+                margin-bottom: 20px;
 
-                .top {
-                    background: $secondBG;
-                    width: 100%;
+                h1 {
+                    width: 94%;
+                    height: 50px;
+                    border-bottom: solid 2px $mainBorder_1;
+                    color: $subFont_2;
+                    font-size: 18px;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 5px;
+                    margin: 0 auto;
+                }
+
+                .walletBox {
+                    width: 94%;
                     height: auto;
-                    margin-bottom: 20px;
-                    border-radius: 5px;
+                    border-bottom: solid 1px $mainBorder_1;
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    gap: 0 24px;
+                    padding: 16px 0;
+                    margin: 0 auto;
 
-                    .title {
-                        width: 100%;
-                        height: 50px;
-                        display: flex;
-                        align-items: center;
-                        padding: 0 22px;
-                        box-sizing: border-box;
-                        border-bottom: solid 1px $Border;
-    
-                        div {
-                            font-weight: bold;
-                            font-size: 20px;
-                            letter-spacing: 2px;
-                            color: $mainFont_1;
-                        }
-                    }
-    
-                    .walletBox {
-                        display: flex;
-                        justify-content: space-around;
-                        align-items: center;
-                        width: 100%;
-                        height: 130px;
-                        border-bottom: solid 1px $Border;
-    
-                        .smallBox {
-                            width: 33%;
-                            height: 100%;
-                            padding: 18px 25px 0;
-                            box-sizing: border-box;
-                            position: relative;
-
-                            &:last-child {
-                                
-                                &::before {
-                                    display: none;
-                                }
-                            }
-
-                            &::before {
-                                content: "";
-                                position: absolute;
-                                top: 50%;
-                                transform: translateY(-50%);
-                                right: 0;
-                                width: 1px;
-                                height: 60%;
-                                background: $Border;
-                            }
-    
-                            .smallTitle {
-    
-                                p {
-                                    display: flex;
-                                    height: 23px;
-                                    align-items: center;
-                                    font-size: 17px;
-                                    letter-spacing: 2px;
-                                    color: $mainFont_3;
-                                    font-weight: bold;
-    
-                                    &.limit {
-                                        color: $withdrawal_limitWord;
-                                        justify-content: space-between;
-                                    }
-                                    &.canUse {
-                                        color: $remind_1;
-                                    }
-    
-                                    i {
-                                        display: block;
-                                        width: 16px;
-                                        height: 16px;
-                                        margin-left: 6px;
-                                    }
-
-                                    button {
-                                        width: auto;
-                                        height: auto;
-                                        @include eventBtn;
-                                        padding: 3px 5px;
-                                    }
-                                }
-                            }
-    
-                            .amount {
-                                padding: 21px 0 0 10px;
-                                font-size: 33px;
-                                font-weight: bold;
-                                color: $money;
-                            }
-                        }
-                    }
-    
-                    .platformBox {
-                        width: 100%;
+                    .smallBox {
+                        width: auto;
                         height: auto;
-                        box-sizing: border-box;
-                        padding: 21px 23px 0;
-                        
-                        .platformTitle {
-                            font-size: 17px;
-                            font-weight: bold;
-                            letter-spacing: 2px;
-                            margin-bottom: 20px;
-                            color: $mainFont_1;
-                        }
-    
-                        ul {
-                            width: 100%;
-                            height: 120px;
-                            overflow: hidden;
-                            display: grid;
-                            grid-template-columns: repeat(4,1fr);
-                            grid-gap: 10px 10px;
+                        position: relative;
 
-                            &.active {
-                                height: auto;
-                            }
-    
-                            &.three {
-                                grid-template-columns: repeat(3,1fr);
-    
-                                li {
-    
-                                    div {
-    
-                                        p {
-                                            width: auto;
-                                            overflow: initial;
-                                        }
-    
-                                        .re_ic {
-                                            margin-left: 5px;
-                                        }
-                                    }
-                                }
-                            }
-    
-                            li {
-                                width: auto;
-                                height: auto;
-                                box-sizing: border-box;
-                                border-radius: 5px;
-                                padding: 28px 0;
-                                background: $fakeTable_BG;
-                                border-radius: 5px;
-    
-                                div {
-                                    display: flex;
-                                    align-items: center;
-                                    margin-bottom: 15px;
-    
-                                    p {
-                                        width: 70%;
-                                        color: $mainFont_1;
-                                        font-size: 16px;
-                                        font-weight: bold;
-                                        overflow: hidden;
-                                        text-overflow: ellipsis;
-                                        white-space: nowrap;
-                                        box-sizing: border-box;
-                                        padding-left: 20px;
-                                    }
-    
-                                    .re_ic {
-                                        display: block;
-                                        width: 16px;
-                                        height: 16px;
-                                        cursor: pointer;
-                                    }
-                                }
-    
-                                p {
-                                    width: 100%;
-                                    font-size: 25px;
-                                    color: $money;
-                                    font-weight: bold;
-                                    box-sizing: border-box;
-                                    padding-left: 20px;
-
-                                    &.remind {
-                                        display: flex;
-                                        align-items: center;
-                                        color: $remind_2;
-                                        font-size: 17px;
-
-                                        i {
-                                            display: block;
-                                            width: 17px;
-                                            height: 17px;
-                                            margin-right: 5px;
-                                        }
-                                    }
-                                }
+                        &:last-child {
+                            
+                            &::before {
+                                display: none;
                             }
                         }
-    
-                        .open {
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 0;
+                            width: 1px;
+                            height: 60px;
+                            background: $mainBorder_1;
+                        }
+
+                        p {
                             width: 100%;
-                            height: auto;
-                            padding: 23px 0 35px;
-                            text-align: center;
+                            height: 28px;
+                            color: $mainFont_2;
+                            font-size: 16px;
                             display: flex;
                             align-items: center;
-                            justify-content: center;
 
-                            &.active {
-
-                                button {
-
-                                    i {
-                                        transform: rotate(180deg);
-                                    }
-                                }
+                            &.limit {
+                                color: $subFont_1;
                             }
-    
+                            
+                            &.canUse {
+                                color: $remind_1;
+                            }
+
+                            i {
+                                width: 16px;
+                                height: 16px;
+                                margin-left: 10px;
+                            }
+
                             button {
-                                color: $mainFont_1;
-                                background: none;
-                                display: flex;
-                                align-items: center;
-                                font-size: 13px;
-    
-                                i {
-                                    display: block;
-                                    width: 14px;
-                                    height: 14px;
-                                    margin-left: 10px;
-                                }
+                                width: auto;
+                                height: 28px;
+                                @include mainBtn;
+                                margin-left: 10px;
                             }
+                        }
+
+                        .amount {
+                            color: $mainFont_1;
+                            font-size: 42px;
+                            font-weight: bold;
+                            margin-top: 16px;
                         }
                     }
                 }
 
-                .bottom {
-                    background: $secondBG;
+                .platformBox {
                     width: 100%;
-                    min-height: 630px;
-                    box-sizing: border-box;
+                    height: auto;
                     padding: 24px;
-                    border-radius: 5px;
-
-                    .title {
-                        font-size: 17px;
-                        letter-spacing: 2px;
-                        color: $mainFont_1;
-                        margin-bottom: 20px;
+                    
+                    .platformTitle {
+                        color: $subFont_2;
+                        font-size: 16px;
                         font-weight: bold;
+                        margin-bottom: 20px;
+                    }
+    
+                    ul {
+                        width: 100%;
+                        min-height: 367px;
+                        display: grid;
+                        grid-template-columns: repeat(5,1fr);
+                        gap: 10px;
+                        overflow: hidden;
+    
+                        li {
+                            width: auto;
+                            height: auto;
+                            min-height: 105px;
+                            @include smallWalletBox;
+    
+                            .title {
+                                color: $mainFont_2;
+                                font-size: 14px;
+                                font-weight: bold;
+                                margin-bottom: 20px;
+                            }
+    
+                            .amount {
+                                color: $mainFont_1;
+                                font-size: 24px;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                width: 100%;
+                height: auto;
+                background: $mainBG_1;
+                border-radius: 16px;
+                padding: 24px;
+
+                .title {
+                    color: $subFont_2;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    width: 100%;
+                    height: auto;
+                    display: grid;
+                    grid-template-columns: repeat(4,1fr);
+                    gap: 0 10px;
+                    margin-bottom: 40px;
+
+                    li {
+                        width: auto;
+                        height: 120px;
+                        background: $subBG_1;
+                        border-radius: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-evenly;
+
+                        .name {
+                            color: $mainFont_2;
+                            font-size: 16px;
+                            font-weight: bold;
+                        }
+
+                        .num {
+                            color: $mainFont_1;
+                            font-size: 42px;
+                            font-weight: bold;
+                        }
+
+                        .notice {
+                            color: $subFont_1;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                form {
+                    display: none;
+                    width: 100%;
+                    height: auto;
+
+                    &.display {
+                        display: block;
                     }
 
-                    ul {
+                    .row {
                         width: 100%;
                         height: auto;
                         display: flex;
-                        margin-bottom: 40px;
+                        margin-bottom: 20px;
 
-                        li {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: space-evenly;
-                            width: 202px;
-                            height: 112px;
-                            margin-right: 8px;
-                            background: $fakeTable_BG;
-                            border-radius: 5px;
-
-                            .name {
-                                font-size: 17px;
-                                color: $mainFont_1;
-                            }
-
-                            .num {
-
-                                span {
-                                    font-size: 38px;
-                                    color: $mainFont_3;
-                                    font-weight: bold;
-                                }
-                            }
-
-                            .notice {
-                                font-size: 15px;
-                                letter-spacing: 2px;
-                                color: $subFont_2
-                            }
-                        }
-                    }
-
-                    form {
-                        display: none;
-
-                        &.display {
-                            display: block;
-                        }
-
-                        .row {
-                            display: flex;
-                            margin-bottom: 23px;
-
-                            p {
-                                width: 80px;
-                                font-size: 14px;
-                                letter-spacing: 1px;
-                                color: $mainFont_3;
-                                font-weight: bold;
-                                margin-top: 13px;
-                                
-                                i {
-                                    font-size: 12px;
-                                    color: $remind_2;
-                                }
-                            }
-
-                            div {
-
-                                select {
-                                    width: 287px;
-                                    height: 40px;
-                                    margin-left: 26px;
-                                    @include mainSelect;
-                                }
-
-                                input {
-                                    width: 287px;
-                                    height: 40px;
-                                    margin-left: 26px;
-                                    @include mainInput;
-                                }
-
-                                .remind {
-                                    margin: 8px 0 0 26px;
-                                    font-size: 12px;
-                                    letter-spacing: 1px;
-                                    color: $remind_1;
-
-                                    &.sp {
-                                        color: $remind_2;
-                                    }
-                                }
-                            }
-                        }
-
-                        button {
-                            width: 287px;
-                            height: 40px;
-                            margin-left: 106px;
-                            @include mainBtn;
-                        }
-                    }
-
-                    .remindBox {
-                        width: 100%;
-                        height: auto;
-                        box-sizing: border-box;
-                        padding: 15px;
-                        margin-top: 24px;
-                        border: solid 1px $Border;
-                        background: $secondBG;
-
-                        .remindTitle {
-                            font-size: 13px;
-                            letter-spacing: 1px;
+                        p {
+                            width: 100px;
                             color: $mainFont_1;
+                            font-size: 14px;
                             font-weight: bold;
-                            margin-bottom: 15px;
+                            margin-top: 13px;
+                            
+                            em {
+                                color: $remind_2;
+                            }
                         }
 
                         div {
-                            margin-bottom: 5px;
-                            font-size: 13px;
-                            letter-spacing: 1px;
-                            color: $subFont_2;
-                            font-weight: bold;
 
-                            &.mar {
-                                margin-bottom: 20px;
+                            select {
+                                width: 287px;
+                                height: 42px;
+                                @include mainSelect;
+                            }
+
+                            input {
+                                width: 287px;
+                                height: 42px;
+                                @include mainInput;
+                            }
+
+                            .remind {
+                                color: $remind_1;
+                                font-size: 12px;
+                                margin-top: 10px;
+
+                                &.sp {
+                                    color: $remind_2;
+                                }
                             }
                         }
+                    }
 
-                        p {
+                    button {
+                        width: 287px;
+                        height: 40px;
+                        @include secondBtn;
+                        margin-left: 100px;
+                    }
+                }
+
+                .remindBox {
+                    width: 100%;
+                    height: auto;
+                    border: solid 1px $mainBorder_2;
+                    border-radius: 16px;
+                    padding: 16px;
+                    margin-top: 50px;
+
+                    .remindTitle {
+                        color: $subFont_2;
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin: 30px 0 10px;
+
+                        &:first-child {
+                            margin-top: 0;
+                        }
+                    }
+
+                    p:not(.remindTitle) {
+                        color: $mainFont_1;
+                        font-size: 14px;
+                        font-weight: bold;
+                        line-height: 24px;
+
+                        &.mar {
+                            margin-bottom: 20px;
+                        }
+
+                        &.ps {
                             color: $remind_1;
-                            font-size: 13px;
-                            letter-spacing: 1px;
-                            line-height: 18px;
-                            font-weight: bold;
                         }
                     }
                 }
