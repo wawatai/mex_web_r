@@ -43,6 +43,10 @@
                         </div>
                         <button class="loginBtn" type="button">Iniciar Sesión</button>
                         <button class="signupBtn" type="button" onclick="window.location.href='./html/register.html'">Registrate</button>
+                        <p class="forget">
+                            <i class="forget_ic"></i>
+                            Olvidé mi contraseña
+                        </p>
                     </form>
                 </li>
                 <!--忘記密碼-->
@@ -406,7 +410,7 @@
             <div class="center">
                 <ul>
                     <li class="menu">
-                        <a href="javascript:;">Los mejores juegos</a>
+                        <a class="active" href="javascript:;">Los mejores juegos</a>
                     </li>
                     <li class="sportBtn unlogin">
                         <a href="javascript:;">Deportes</a>
@@ -841,49 +845,71 @@
                 </div>
                 <!--遊戲平台選單-->
                 <ul class="typeList">
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin sport display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/sport/sport_36588.png" alt="">
+                            <p>36588 Deportes</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin live display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/live/live_ab.png" alt="">
+                            <p>ALLBET Casino en vivo</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin live display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/live/live_ag.png" alt="">
+                            <p>AG Casino en vivo</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin live display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/live/live_dg.png" alt="">
+                            <p>DG Casino en vivo</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin live display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/live/live_evo.png" alt="">
+                            <p>Evolution Casino en vivo</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin live display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/live/live_mg.png" alt="">
+                            <p>Microgaming Casino en vivo</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin live display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/live/live_og.png" alt="">
+                            <p>OG Casino en vivo</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin live display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/live/live_pp.png" alt="">
+                            <p class="small">PRAGMATIC PLAY Casino en vivo</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin live display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/live/live_sa.png" alt="">
+                            <p>SA Casino en vivo</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin live display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/live/live_wm.png" alt="">
+                            <p>WM Casino en vivo</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_ag.png" alt="">
+                            <p>AG Slot</p>
+                        </a>
                         <!--20221221_隱藏維修視窗_L-->
                         <!-- <div class="fixBox display">
                             <p class="title">維護中</p>
@@ -891,41 +917,252 @@
                             <p>2020/03/02 下午4:00</p>
                         </div> -->
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_ava.png" alt="">
+                            <p>AVATARUX Slot</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_bng.png" alt="">
+                            <p>BNG Slot</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_bp.png" alt="">
+                            <p>Blueprint Slot</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_elk.png" alt="">
+                            <p>ELK Slot</p>
+                        </a>
                     </li>
-                    <li class="unlogin">
-                        <img src="#" alt="">
-                        <p>GAME NAME</p>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_ely.png" alt="">
+                            <p>ELYSIUM Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_evo.png" alt="">
+                            <p>EVOPLAY Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_ftp.png" alt="">
+                            <p>4ThePlayer Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_gh.png" alt="">
+                            <p>GoldenHero Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_ha.png" alt="">
+                            <p>HABANERO Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_ifun.png" alt="">
+                            <p>iFUN Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_jili.png" alt="">
+                            <p>JILI Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_mg.png" alt="">
+                            <p>Microgaming Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_net.png" alt="">
+                            <p>NETENT Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_nolimit.png" alt="">
+                            <p>noLimit Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_pg.png" alt="">
+                            <p>PG Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_pls.png" alt="">
+                            <p>PLS Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_png.png" alt="">
+                            <p>PNG Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_pp.png" alt="">
+                            <p>PRAGMATIC PLAY Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_qs.png" alt="">
+                            <p>QUICKSPIN Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_red.png" alt="">
+                            <p>REDRAKE Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_relax.png" alt="">
+                            <p>RELAX Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_rsg.png" alt="">
+                            <p>RSG Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_sp.png" alt="">
+                            <p>SP Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_tiger.png" alt="">
+                            <p>RED TIGER Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_tpg.png" alt="">
+                            <p>TPG Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_wf.png" alt="">
+                            <p>WINFAST Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin slot display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/slot/slot_ygg.png" alt="">
+                            <p>YGGDRASIL Slot</p>
+                        </a>
+                    </li>
+                    <li class="unlogin fish display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/fish/fish_jili.png" alt="">
+                            <p>JILI Fishing game</p>
+                        </a>
+                    </li>
+                    <li class="unlogin fish display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/fish/fish_rsg.png" alt="">
+                            <p>RSG Fishing game</p>
+                        </a>
+                    </li>
+                    <li class="unlogin fish display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/fish/fish_sp.png" alt="">
+                            <p>SP Fishing game</p>
+                        </a>
+                    </li>
+                    <li class="unlogin fish display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/fish/fish_tpg.png" alt="">
+                            <p>TPG Fishing game</p>
+                        </a>
+                    </li>
+                    <li class="unlogin board display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/board/board_ag.png" alt="">
+                            <p>AG póquer</p>
+                        </a>
+                    </li>
+                    <li class="unlogin board display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/board/board_ely.png" alt="">
+                            <p>ELYSIUM póquer</p>
+                        </a>
+                    </li>
+                    <li class="unlogin board display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/board/board_ha.png" alt="">
+                            <p>HABANERO póquer</p>
+                        </a>
+                    </li>
+                    <li class="unlogin board display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/board/board_ifun.png" alt="">
+                            <p>iFUN póquer</p>
+                        </a>
+                    </li>
+                    <li class="unlogin board display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/board/board_jili.png" alt="">
+                            <p>JILI póquer</p>
+                        </a>
+                    </li>
+                    <li class="unlogin board display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/board/board_mg.png" alt="">
+                            <p>Microgaming póquer</p>
+                        </a>
+                    </li>
+                    <li class="unlogin board display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/board/board_pg.png" alt="">
+                            <p>PG póquer</p>
+                        </a>
+                    </li>
+                    <li class="unlogin board display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/board/board_png.png" alt="">
+                            <p>PNG póquer</p>
+                        </a>
+                    </li>
+                    <li class="unlogin board display">
+                        <a href="javascript:;">
+                            <img src="./images/enter/board/board_red.png" alt="">
+                            <p>REDRAKE póquer</p>
+                        </a>
                     </li>
                 </ul>
                 <!--pageBox-->
-                <div class="pageBox">
+                <div class="pageBox display">
                     <ul>
                         <li class="active">
                             <p>1</p>
-                        </li>
-                        <li>
-                            <p>2</p>
-                        </li>
-                        <li>
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <p>4</p>
                         </li>
                     </ul>
                 </div>
@@ -936,14 +1173,14 @@
             </div>
         </div>
     </main>
-    <!-- <nav class="sideBar">
+    <nav class="sideBar">
         <button class="inviteBtn">
             <a href="./html/invite.html"></a>
         </button>
         <button class="goTop">
             <i></i>
         </button>
-    </nav> -->
+    </nav>
     <footer>
         <!--上部-->
         <div class="top">
@@ -1167,9 +1404,9 @@
                 <i class="close_ic"></i>
             </div>
             <div class="content">
-                <p>&ensp;</p>
+                <p>Por favor, inicie sesión primero</p>
             </div>
-            <button class="close">確認</button>
+            <button class="close">Confirmar</button>
         </div>
     </div>
     <div class="bg"></div>

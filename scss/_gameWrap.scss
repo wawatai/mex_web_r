@@ -11,7 +11,7 @@
         margin-bottom: 48px;
         padding-top: 70px;
 
-        &.slotPage {
+        &.innerPage {
             width: 1400px;
             padding-top: 20px;
             margin: 0 auto;
@@ -23,30 +23,23 @@
             background: $mainBG_1;
             border-radius: 30px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 60px 40px 60px 0;
+            padding: 60px 10px 60px 0;
             margin: 0 auto;
 
             .mainImg {
-                width: 670px;
-                height: 527px;
+                width: 675px;
+                height: 732px;
                 background-size: contain;
+                flex-shrink: 0;
             }
 
             .textBox {
-                width: 550px;
+                width: 100%;
                 height: auto;
     
                 .title {
+                    width: 550px;
                     height: 100px;
-                    
-                    &.sport {
-                        width: 361px;
-                    }
-                    &.live {
-                        width: 550px;
-                    }
                 }
     
                 .mainCnt {
@@ -71,9 +64,8 @@
                             width: 100%;
                             height: auto;
                             display: grid;
-                            grid-template-columns: repeat(4,132px);
-                            gap: 20px 0;
-                            justify-content: space-between;
+                            grid-template-columns: repeat(3,189px);
+                            gap: 20px 10px;
         
                             li {
                                 width: auto;
@@ -84,8 +76,8 @@
                                     font-size: 0;
 
                                     img {
-                                        width: 132px;
-                                        height: 92px;
+                                        width: 189px;
+                                        height: 185px;
                                         object-fit: cover;
                                         object-position: top;
                                         
@@ -102,6 +94,10 @@
                                     font-weight: bold;
                                     text-align: center;
                                     padding-top: 5px;
+
+                                    &.small {
+                                        font-size: 12px;
+                                    }
                                 }
                             }
                         }

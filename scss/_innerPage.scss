@@ -767,6 +767,22 @@
                             margin-bottom: 10px;
                         }
 
+                        .subTitle {
+                            color: $mainFont_2;
+                            font-size: 12px;
+                            font-weight: bold;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-bottom: 10px;
+
+                            span {
+                                color: $mainFont_1;
+                                font-size: 14px;
+                                font-weight: bold;
+                            }
+                        }
+
                         ul {
                             width: 100%;
                             height: auto;
@@ -792,6 +808,12 @@
                                     }
                                 }
                             }
+                        }
+
+                        .type {
+                            color: $subFont_1;
+                            font-size: 16px;
+                            font-weight: bold;
                         }
                     }
 
@@ -1986,6 +2008,7 @@
                     background: $mainBG_1;
                     position: relative;
                     border-radius: 16px;
+                    overflow: hidden;
                     padding-bottom: 50px;
 
                     .btnBox  {
@@ -2098,7 +2121,48 @@
                             cursor: pointer;
                             padding-left: 20px;
 
+                            &:hover,&:active,&.active {
+
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    top: 0;
+                                    left: -20%;
+                                    width: 140%;
+                                    height: 100%;
+                                    background: $mail_hoverBG;
+                                    z-index: -1;
+                                }
+                            }
+
+                            &.road {
+
+                                &::before {
+                                    display: none;
+                                }
+
+                                .title {
+                                    color: $mainFont_2;
+                                }
+                            }
+
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                left: 0;
+                                width: 8px;
+                                height: 8px;
+                                background: $remind_2;
+                                border-radius: 50%;
+                            }
+
                             &.editing {
+
+                                &::before {
+                                    display: none;
+                                }
 
                                 .checkBox {
                                     display: block;
@@ -2656,13 +2720,13 @@
                                     height: auto;
 
                                     select {
-                                        width: 245px;
+                                        width: 290px;
                                         height: 42px;
                                         @include mainSelect;
                                     }
 
                                     input {
-                                        width: 245px;
+                                        width: 290px;
                                         height: 42px;
                                         @include mainInput;
                                     }
@@ -2697,8 +2761,13 @@
                 }
 
                 .tableWrap {
+                    display: none;
                     width: 100%;
                     height: auto;
+
+                    &.display {
+                        display: block;
+                    }
 
                     table {
                         width: 100%;
@@ -2805,7 +2874,7 @@
                     .noData {
                         display: none;
                         width: 100%;
-                        height: 530px;
+                        height: auto;
                         color: $mainFont_2;
                         font-size: 18px;
                         font-weight: bold;

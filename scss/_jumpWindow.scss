@@ -41,6 +41,7 @@
                     color: $mainFont_1;
                     font-size: 14px;
                     font-weight: bold;
+                    text-align: center;
                 }
             }
 
@@ -254,7 +255,8 @@
         }
 
         //活動潭窗
-        &.eventWindow {
+        &.eventWindow,
+        &.checkEvent {
             width: 800px;
 
             .content {
@@ -458,175 +460,41 @@
             }
         }
 
-        
-
-        
-
-        
-
-        
-
-
-
-        //查看活動
-        // &.checkEvent {
-        //     display: none;
-        //     width: 840px;
-
-        //     &.display {
-        //         display: block;
-        //     }
-
-        //     .content {
-        //         width: 100%;
-        //         height: auto;
-        //         box-sizing: border-box;
-        //         padding: 28px 47px;
-
-        //         .imgBox {
-        //             overflow-x: auto;
-        //         }
-
-        //         p {
-        //             font-size: 16px;
-        //             letter-spacing: 1px;
-        //             color: $mainFont_1;
-        //             margin-top: 10px;
-        //             font-weight: bold;
-        //             line-height: 20px;
-        //         }
-        //     }
-
-        //     .btnBox {
-        //         width: 100%;
-        //         height: auto;
-        //         padding: 18px 0;
-        //         text-align: center;
-
-        //         button {
-        //             width: 322px;
-        //             height: 42px;
-        //             @include mainBtn;
-        //         }
-        //     }
-        // }
-
         //紅利會員彈窗
-        // &.pointWindow {
-        //     display: none;
+        &.pointWindow {
+            width: 540px;
 
-        //     &.display {
-        //         display: block;
-        //     }
+            .content {
+                width: 100%;
+                height: 200px;
+                text-align: center;
+                padding-top: 45px;
 
-        //     .content {
-        //         padding: 24px 24px 10px;
+                p {
+                    color: $mainFont_1;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
 
-        //         table {
-        //             width: 490px;
-        //             height: auto;
-        //             box-shadow: 0 0 0 1px $fakeTable_border;
-        //             background: $fakeTable_BG;
+                input {
+                    width: 320px;
+                    height: 42px;
+                    @include mainInput;
+                    text-align: center;
+                    padding: 0;
+                }
+            }
+        }
 
-        //             tr {
 
-        //                 &:last-child {
-                            
-        //                     td {
-        //                         border: none;
-        //                     }
-        //                 }
 
-        //                 th {
-        //                     vertical-align: middle;
-        //                     height: 30px;
-        //                     border-bottom: solid 2px $fakeTable_TitleBorder;
 
-        //                     &:last-child {
 
-        //                         p {
-        //                             border: none;
-        //                         }
-        //                     }
 
-        //                     p {
-        //                         font-size: 14px;
-        //                         font-weight: bold;
-        //                         border-right: solid 1px $fakeTable_border;
-        //                         color: $fakeTable_Word;
-        //                     }
-        //                 }
 
-        //                 td {
-        //                     width: 50%;
-        //                     vertical-align: middle;
-        //                     height: 40px;
 
-        //                     &:last-child {
-
-        //                         p {
-        //                             border: none;
-        //                         }
-        //                     }
-                            
-        //                     p {
-        //                         font-size: 14px;
-        //                         font-weight: bold;
-        //                         color: $fakeTable_Word;
-        //                         border-right: solid 1px $Border;
-        //                         text-align: center;
-        //                     }
-        //                 }
-        //             }
-        //         }
-
-        //         .pageBox {
-        //             width: 100%;
-        //             height: auto;
-        //             display: flex;
-        //             align-items: center;
-        //             justify-content: center;
-        //             margin-top: 10px;
-
-        //             p {
-        //                 color: $subFont_2;
-        //                 font-size: 12px;
-        //                 font-weight: bold;
-        //             }
-
-        //             .page {
-        //                 width: auto;
-        //                 height: auto;
-        //                 display: flex;
-        //                 align-items: center;
-        //                 margin-left: 10px;
-
-        //                 i {
-        //                     display: block;
-        //                     width: 7px;
-        //                     height: 11px;
-        //                     cursor: pointer;
-
-        //                     &.arrow_right {
-        //                         transform: scaleX(-1);
-        //                     }
-        //                 }
-
-        //                 button {
-        //                     width: 28px;
-        //                     height: 28px;
-        //                     @include page;
-        //                     margin-right: 8px;
-
-        //                     &:nth-of-type(1) {
-        //                         margin-left: 8px;
-        //                     }
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
-
+        
         //相關條款彈窗
         // &.ruleWindow {
         //     width: 840px;

@@ -1,9 +1,9 @@
 //header
 //忘記密碼
-// header .forget i {
-//     background: url('../images/icon/question.png') no-repeat;
-//     background-size: 100%;
-// }
+header .forget i {
+    background: url('../images/icon/question.png') no-repeat center;
+    background-size: contain;
+}
 //登入後下選單旋轉圖
 header .transferInfo .money i {
     background: url('../images/icon/svg/loading_g.svg') no-repeat;
@@ -38,14 +38,14 @@ header .topGameList .next::before {
 
 
 //sideBar
-// .sideBar .inviteBtn a {
-//     background: url('../images/icon/invite.gif') no-repeat;
-//     background-size: contain;
-// }
-// .sideBar .goTop i {
-//     background: url('../images/icon/goTop.png') no-repeat;
-//     background-size: contain;
-// }
+.sideBar .inviteBtn a {
+    background: url('../images/icon/invite.png') no-repeat center;
+    background-size: contain;
+}
+.sideBar .goTop i {
+    background: url('../images/icon/goTop.png') no-repeat center;
+    background-size: contain;
+}
 
 
 //footer
@@ -213,6 +213,18 @@ footer .footerList .evo {
 }
 .gameWrap .title.live {
     background: url('../images/partner/live/live_title.png') no-repeat center;
+    background-size: contain;
+}
+.gameWrap .title.slot {
+    background: url('../images/partner/slot/slot_title.png') no-repeat center;
+    background-size: contain;
+}
+.gameWrap .title.board {
+    background: url('../images/partner/board/board_title.png') no-repeat center;
+    background-size: contain;
+}
+.gameWrap .title.fish {
+    background: url('../images/partner/fish/fish_title.png') no-repeat center;
     background-size: contain;
 }
 //slotPage
@@ -531,20 +543,6 @@ footer .footerList .evo {
 
 
 
-//.jumpWindow .checkEvent img
-.checkEvent {
-
-    .imgBox {
-        width: 100%;
-        height: 400px;
-
-        img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-        }
-    }
-}
 
 //agentPage
 .agentPage .topBanner,
